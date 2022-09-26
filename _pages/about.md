@@ -9,6 +9,7 @@ profile:
   image: "neiwen.jpg"
   image_circular: false # crops the image to make it circular
   address: >
+    lingnw@link.cuhk.edu.hk
     <p>The Chinese University of Hong Kong</p>
     <p>Shatin, Hong Kong, China</p>
 

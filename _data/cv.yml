@@ -2,96 +2,103 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Neiwen Ling
     - name: Date of Birth
-      value: 14th March 1879
+      value: July 1996
     - name: Languages
-      value: English, German
+      value: Chinese, English
+
+- title: Research Interests
+  type: list
+  contents:
+    - Internet of Things, Edge AI, Edge Computing, Real-time Deep Learning, Real-time Scheduling, Deep Learning System
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: The Chinese University of Hong Kong, Hong Kong, China
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Information Engineering
+        - Supervised by Prof. Guoliang Xing
+        # - Description 1.
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Bachelor
+      institution: Northwestern Polytechnical University, China
+      year: 2014-2018
       description:
-        - Description 1.
-        - Description 2.
+        - Electronics and Information Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Visiting Ph.D. student
+      institution: Shenzhen Institute of Artificial Intelligence and Robotics for Society 
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        # - Description 1.
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Postdoctoral Fellow
+      institution: The Department of Information Engineering, The Chinese University of Hong Kong 
+      year: 2022-present
       description:
-        - Description 1.
-        - Description 2.
+        # - Description 1.
+        # - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Professional Skills
+  type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Programming Language
+      items: 
+        - Python
+        - C/C++ Language
+        - Verilog HDL
+        - Assembly Language
+    - title: Development Platform
+      items:
+        - NVIDIA Jetson TX2
+        - NVIDIA AGX Xavier
+        - FPGA
+        - Arduino
+        - 51 SCM
+        - STM32F1/STM32F4
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - N2Women Young Researcher Fellowship
+    - year: 2018-2022
       items: 
-        - Max Planck Medal
+        - Postgraduate Scholarship
+    - year: 2018
+      items: 
+        - Undergraduate Excellent Graduation Project
 
-- title: Academic Interests
+- title: Professional Services
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Organizer
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - N2Women Meeting in SenSys 2021
+    - title: Invited reviewer
       items:
-        - Description 1.
-        - Description 2.
+        - IEEE Transactions on Mobile Computing (TMC)
+    - title: Teaching Assistant
+      items:
+        - ENGG1100: Introduction to Engineering Design, 2018 Fall, CUHK
+        - IERG4230: Introduction to Internet of Things, 2019 Spring, CUHK
+        - ENGG1110: Problem Solving by Programming, 2019/2020/2021 Fall, CUHK
+        - IERG2602: Engineering Practicum, 2020/2021 Spring, CUHK
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
