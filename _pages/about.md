@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: neiwen.jpg
+  image: "neiwen.jpg"
   image_circular: false # crops the image to make it circular
   address: >
     <p>The Chinese University of Hong Kong</p>
