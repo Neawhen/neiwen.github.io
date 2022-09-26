@@ -16,7 +16,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Ph.D.
       institution: The Chinese University of Hong Kong, Hong Kong, China
       year: 2018-2022
       description:
@@ -72,7 +72,7 @@
         - 51 SCM
         - STM32F1/STM32F4
 
-- title: Honors and Awards
+- title: Selected Honors and Awards
   type: time_table
   contents:
     - year: 2021
@@ -96,9 +96,9 @@
         - IEEE Transactions on Mobile Computing (TMC)
     - title: Teaching Assistant
       items:
-        - ENGG1100: Introduction to Engineering Design, 2018 Fall, CUHK
-        - IERG4230: Introduction to Internet of Things, 2019 Spring, CUHK
-        - ENGG1110: Problem Solving by Programming, 2019/2020/2021 Fall, CUHK
-        - IERG2602: Engineering Practicum, 2020/2021 Spring, CUHK
+        - ENGG1100 Introduction to Engineering Design, 2018 Fall, CUHK
+        - IERG4230 Introduction to Internet of Things, 2019 Spring, CUHK
+        - ENGG1110 Problem Solving by Programming, 2019/2020/2021 Fall, CUHK
+        - IERG2602 Engineering Practicum, 2020/2021 Spring, CUHK
 
 
