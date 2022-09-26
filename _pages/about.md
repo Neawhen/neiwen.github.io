@@ -8,10 +8,9 @@ profile:
   align: right
   image: "neiwen.jpg"
   image_circular: false # crops the image to make it circular
-  address: >
+  address: 
     lingnw@link.cuhk.edu.hk
-    <p>The Chinese University of Hong Kong</p>
-    <p>Shatin, Hong Kong, China</p>
+    CUHK, Hong Kong
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
