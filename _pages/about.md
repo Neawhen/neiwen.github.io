@@ -19,6 +19,11 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
+
+
+
+
+
 I am currently a Postdoctoral Fellow in AIoT Lab at The Chinese University of Hong Kong, advised by Professor Guoliang Xing. 
 My research interests include Edge AI, concurrent deep learning, and new approaches to on-device deep learning.
 
