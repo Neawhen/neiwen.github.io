@@ -9,7 +9,6 @@ profile:
   image: neiwen.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Ho Sin Hang Engineering Building</p>
     <p>The Chinese University of Hong Kong</p>
     <p>Shatin, Hong Kong, China</p>
 
