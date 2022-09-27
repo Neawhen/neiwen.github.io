@@ -48,6 +48,7 @@
 @inproceedings{ling2021rt,
   abbr={SenSys2021},
   selected={true},
+  bibtex_show={true},
   title={RT-mDL: Supporting Real-Time Mixed Deep Learning Tasks on Edge Platforms},
   author={Ling, Neiwen and Wang, Kai and He, Yuze and Xing, Guoliang and Xie, Daqi},
   abstract={Recent years have witnessed an emerging class of real-time applications, e.g., autonomous driving, in which resource-constrained edge platforms need to execute a set of real-time mixed Deep Learning (DL) tasks concurrently. Such an application paradigm poses major challenges due to the huge compute workload of deep neural network models, diverse performance requirements of different tasks, and the lack of real-time support from existing DL frameworks. In this paper, we present RT-mDL, a novel framework to support mixed real-time DL tasks on edge platform with heterogeneous CPU and GPU resource. 
@@ -65,7 +66,7 @@
 
 @inproceedings{ling2022blastnet,
   abbr={SenSys2022},
-  bibtex_show={true},
+  bibtex_show={false},
   selected={true},
   title={BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference},
   author={Ling, Neiwen and Huang, Xuan and Zhao, Zhihe and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
@@ -73,7 +74,7 @@
   In this work, we propose a new system named BlastNet that exploits {\em duo-block - a new model inference abstraction} to support highly efficient cross-processor real-time DNN inference. 
   Each duo-block has a dual model structure, enabling efficient fine-grained inference alternatively across different processors. BlastNet employs a novel block-level Neural Architecture Search (NAS) technique to generate duo-blocks, which accounts for computing characteristics and communication overhead. The duo-blocks are optimized at design time and then dynamically scheduled to achieve high resource utilization of heterogeneous CPU and GPU at runtime. 
   BlastNet is implemented on an indoor autonomous driving platform and three popular edge platforms.
-  Extensive results show that \sysname{} achieves $45.70\,\%$ less deadline missing rate with a mere $1.63 \%$ of model accuracy loss.},
+  Extensive results show that BlastNet achieves $45.70 \%$ less deadline missing rate with a mere $1.63 \%$ of model accuracy loss.},
   booktitle={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
   year={2022}
 }
@@ -98,7 +99,7 @@
   However, the performance of existing approaches is highly affected by runtime dynamics. For example, offloading workload from edge to cloud suffers from communication delays and the efficiency of progressive neural architecture supporting early-exit DNN executions relies on input characteristics. 
   In this paper, we introduce EdgeML, an AutoML framework that provides flexible and fine-grained DNN model execution control by combining workload offloading mechanism and dynamic progressive neural architecture. 
   To achieve desirable latency-accuracy-energy system performance on edge platforms, EdgeML adopts reinforcement learning to automatically update model execution policy in response to runtime dynamics in real-time. We implement EdgeML for several widely used DNN models on the latest edge devices. 
-  Comparing to existing approaches, our experiments show that EdgeML achieves up to 8\times performance improvement under dynamic environments.},
+  Comparing to existing approaches, our experiments show that EdgeML achieves up to 8x performance improvement under dynamic environments.},
   booktitle={Proceedings of the International Conference on Internet-of-Things Design and Implementation},
   pages={133--144},
   year={2021},
