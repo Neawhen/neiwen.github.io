@@ -69,6 +69,11 @@
   selected={true},
   title={BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference},
   author={Ling, Neiwen and Huang, Xuan and Zhao, Zhihe and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
+  abstract={In recent years, Deep Neural Network (DNN) has been increasingly adopted by a wide range of time-critical applications running on edge platforms with heterogeneous multiprocessors. To meet the stringent timing requirements of these applications, heterogeneous CPU and GPU resources must be efficiently utilized for the inference of multiple DNN models. Such a cross-processor real-time DNN inference paradigm poses major challenges due to the inherent performance imbalance among different processors and the lack of real-time support for cross-processor inference from existing deep learning frameworks. 
+  In this work, we propose a new system named BlastNet that exploits {\em duo-block - a new model inference abstraction} to support highly efficient cross-processor real-time DNN inference. 
+  Each duo-block has a dual model structure, enabling efficient fine-grained inference alternatively across different processors. BlastNet employs a novel block-level Neural Architecture Search (NAS) technique to generate duo-blocks, which accounts for computing characteristics and communication overhead. The duo-blocks are optimized at design time and then dynamically scheduled to achieve high resource utilization of heterogeneous CPU and GPU at runtime. 
+  BlastNet is implemented on an indoor autonomous driving platform and three popular edge platforms.
+  Extensive results show that \sysname{} achieves $45.70\,\%$ less deadline missing rate with a mere $1.63 \%$ of model accuracy loss.},
   booktitle={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
   year={2022}
 }
@@ -88,9 +93,19 @@
   selected={true},
   title={EdgeML: An AutoML framework for real-time deep learning on the edge},
   author={Zhao, Zhihe and Wang, Kai and Ling, Neiwen and Xing, Guoliang},
+  abstract = {In recent years, deep learning algorithms are increasingly adopted by a wide range of data-intensive and time-critical Internet of Things (IoT) applications. 
+  As a result, several new approaches, including model partition/offloading and progressive neural architecture, have been proposed to address the challenge of deploying the computation-intensive deep neural network (DNN) models on resource-constrained edge devices. 
+  However, the performance of existing approaches is highly affected by runtime dynamics. For example, offloading workload from edge to cloud suffers from communication delays and the efficiency of progressive neural architecture supporting early-exit DNN executions relies on input characteristics. 
+  In this paper, we introduce EdgeML, an AutoML framework that provides flexible and fine-grained DNN model execution control by combining workload offloading mechanism and dynamic progressive neural architecture. 
+  To achieve desirable latency-accuracy-energy system performance on edge platforms, EdgeML adopts reinforcement learning to automatically update model execution policy in response to runtime dynamics in real-time. We implement EdgeML for several widely used DNN models on the latest edge devices. 
+  Comparing to existing approaches, our experiments show that EdgeML achieves up to 8\times performance improvement under dynamic environments.},
   booktitle={Proceedings of the International Conference on Internet-of-Things Design and Implementation},
   pages={133--144},
-  year={2021}
+  year={2021},
+  doi={10.1145/3450268.3453520},
+  url={https://dl.acm.org/doi/pdf/10.1145/3450268.3453520},
+  html={https://dl.acm.org/doi/abs/10.1145/3450268.3453520},
+  pdf={EdgeML_IoTDI2021.pdf},
 }
 
 @article{zhao2022moses,
