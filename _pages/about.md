@@ -9,8 +9,8 @@ profile:
   image: "neiwen.jpg"
   image_circular: false # crops the image to make it circular
   address: 
-    lingnw@link.cuhk.edu.hk
-    CUHK, Hong Kong
+    # lingnw@link.cuhk.edu.hk
+    # CUHK, Hong Kong
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
