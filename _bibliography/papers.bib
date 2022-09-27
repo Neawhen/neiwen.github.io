@@ -122,6 +122,12 @@
 @article{zhao2022moses,
   title={Moses: Efficient Exploitation of Cross-device Transferable Features for Tensor Program Optimization},
   author={Zhao, Zhihe and Shuai, Xian and Bai, Yang and Ling, Neiwen and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
+  abstract = {Achieving efficient execution of machine learning models has attracted significant attention recently. 
+  To generate tensor programs efficiently, a key component of DNN compilers is the cost model that can predict the performance of each configuration on specific devices. 
+  However, due to the rapid emergence of hardware platforms, it is increasingly labor-intensive to train domain-specific predictors for every new platform. 
+  Besides, current design of cost models cannot provide transferable features between different hardware accelerators efficiently and effectively. 
+  In this paper, we propose Moses, a simple and efficient design based on the lottery ticket hypothesis, which fully takes advantage of the features transferable to the target device via domain adaptation. 
+  Compared with state-of-the-art approaches, Moses achieves up to 1.53X efficiency gain in the search stage and 1.41X inference speedup on challenging DNN benchmarks.},
   journal={arXiv preprint arXiv:2201.05752},
   year={2022},
   url={https://arxiv.org/pdf/2201.05752.pdf},
