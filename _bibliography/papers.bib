@@ -86,12 +86,11 @@
   booktitle={Proceedings of the 16th ACM Conference on Embedded Networked Sensor Systems},
   pages={394--395},
   year={2018},
-  abstract = {In recent years, deep learning algorithms are increasingly adopted by a wide range of data-intensive and time-critical Internet of Things (IoT) applications. 
-  As a result, several new approaches, including model partition/offloading and progressive neural architecture, have been proposed to address the challenge of deploying the computation-intensive deep neural network (DNN) models on resource-constrained edge devices. 
-  However, the performance of existing approaches is highly affected by runtime dynamics. For example, offloading workload from edge to cloud suffers from communication delays and the efficiency of progressive neural architecture supporting early-exit DNN executions relies on input characteristics. 
-  In this paper, we introduce EdgeML, an AutoML framework that provides flexible and fine-grained DNN model execution control by combining workload offloading mechanism and dynamic progressive neural architecture. 
-  To achieve desirable latency-accuracy-energy system performance on edge platforms, EdgeML adopts reinforcement learning to automatically update model execution policy in response to runtime dynamics in real-time. We implement EdgeML for several widely used DNN models on the latest edge devices. 
-  Comparing to existing approaches, our experiments show that EdgeML achieves up to 8x performance improvement under dynamic environments.},
+  abstract = {Real-time image-based object tracking from live video is of great importance for several smart city applications like surveillance, intelligent traffic management and autonomous driving. 
+  Although recent deep learning systems can achieve satisfactory tracking performance, they incur significant compute overhead, which prevents them from wide adoption on resource-constrained IoT platforms. 
+  In this demonstration, we present an Edge Computing system for Real-time object Tracking (ECRT) for resource-constrained devices. 
+  The key feature of our system is that it intelligently partitions compute-intensive tasks such as inferencing a convolutional neural network(CNN) into two parts, which are executed locally on an IoT device and/or on the edge server. 
+  Moreover, ECRT can minimize the power consumption of IoT devices while taking into consideration the dynamic network environment and user requirement on end to end delay.},
   doi={10.1145/3274783.3275199},
   url={https://dl.acm.org/doi/pdf/10.1145/3274783.3275199},
   html={https://dl.acm.org/doi/abs/10.1145/3274783.3275199},
