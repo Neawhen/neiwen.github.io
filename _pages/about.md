@@ -23,11 +23,11 @@ social: false  # includes social icons at the bottom of the page
 
 
 
-I am currently a Postdoctoral Fellow in AIoT Lab at the Chinese University of Hong Kong, advised by Professor Guoliang Xing. 
+I am currently a Postdoctoral Fellow in AIoT Lab at the Chinese University of Hong Kong, advised by <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Professor Guoliang Xing</a>. 
 I also work closely with Prof. Nan Guan and Prof. Zhenyu Yan.
-My research interests include Edge AI, concurrent deep learning, and new approaches to on-device deep learning.
+My research interests include Edge AI, concurrent deep learning, real-time deep learning, and new approaches to on-device deep learning.
 
-I completed my Ph.D.(2022) in Information Engineering from The Chinese University of Hong Kong, where I was advised by Professor Guoliang Xing and worked on real-time AI. Before, I received my Bachelor's degree (2018) in Electronic and Information Engineering from Northwestern Polytechnical University.
+I completed my Ph.D.(2022) in Information Engineering from the Chinese University of Hong Kong, where I was advised by Professor Guoliang Xing and worked on real-time AI. Before, I received my Bachelor's degree (2018) in Electronic and Information Engineering from Northwestern Polytechnical University.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
