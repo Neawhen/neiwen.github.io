@@ -55,6 +55,17 @@
   year={2022},
   award={Best Paper Candidate},
   accept={(Acceptance ratio: 52/208=25%)},
+  abstract = {In recent years, Deep Neural Network (DNN) has been increasingly adopted by a wide range of time-critical applications running on 
+  edge platforms with heterogeneous multiprocessors. To meet the stringent timing requirements of these applications, heterogeneous 
+  CPU and GPU resources must be efficiently utilized for the inference of multiple DNN models. Such a cross-processor real-time 
+  DNN inference paradigm poses major challenges due to the inherent performance imbalance among different processors and the lack 
+  of real-time support for cross-processor inference from existing deep learning frameworks. In this work, we propose a new system 
+  named BlastNet that exploits duo-block - a new model inference abstraction to support highly efficient cross-processor real-time DNN 
+  inference. Each duo-block has a dual model structure, enabling efficient fine-grained inference alternatively across different processors. BlastNet employs a novel block-level Neural Architecture 
+  Search (NAS) technique to generate duo-blocks, which accounts for computing characteristics and communication overhead. The duoblocks are optimized at design time and then dynamically scheduled 
+  to achieve high resource utilization of heterogeneous CPU and GPU at runtime. BlastNet is implemented on an indoor autonomous driving platform and three popular edge platforms. Extensive results 
+  show that BlastNet achieves 35.07 % less deadline missing rate with a mere 1.63% of model accuracy loss.},
+  pdf = {blastnet_sensys2022.pdf}
 }
 
 
@@ -66,7 +77,13 @@
   author={Zhao, Zhihe and Ling, Neiwen and Guan, Nan and Xing, Guoliang},
   journal={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
   year={2022},
-  award={Best Poster Award}
+  award={Best Poster Award},
+  abstract={AI applications powered by deep learning are increasingly running on edge devices. Meanwhile, many real-world IoT applications demand multiple real-time tasks to run on the same device, for
+  example, to achieve both object tracking and image segmentation simultaneously on an augmented reality glass. However, the current solutions can not yet support such multi-tenant real-time DNN inference 
+  on edge devices. Techniques such as on-device model compression trade inference accuracy for speed, while traditional DNN compilers mainly focus on single-tenant DNN model optimization. 
+  To fill this gap, we propose Aaron, which leverages DNN compiling techniques to accelerate multi-DNN inference on edge GPU based on compile-time kernel adaptation with no accuracy loss. 
+  Aaron integrates both DNN graph and kernel optimization to maximize on-device parallelism and minimize contention brought by concurrent inference.},
+  pdf={aaron_sensys2022.pdf}
 }
 
 @article{ling2021rt,
@@ -155,5 +172,12 @@
   author={Ling*, Neiwen and He*, Yuze and Guan, Nan and Fu, Heming and Xing, Guoliang},
   journal = {The 5th International SenSys/BuildSys Workshop on Data},
   year={2022},
+  abstrct={Smart traffic is an emerging research area gaining more attention due to a class of emerging applications such as autonomous driving. 
+  Most smart traffic scenarios are outdoors, which are hard to collect traffic data and build demanding sensing systems. In this work, 
+  an indoor smart traffic testbed with an F1TENTH autonomous driving vehicle is built, allowing the collection of traffic datasets 
+  under different scenarios and performing various smart traffic tasks. This novel data collection system and collected dataset can help 
+  research teams build various smart traffic systems and evaluate indoor smart traffic datasets. The collected traffic light dataset is 
+  publicly available at the link1.},
+  pdf={data22.pdf}
 }
 
