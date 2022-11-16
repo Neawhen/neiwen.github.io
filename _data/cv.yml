@@ -75,6 +75,12 @@
 - title: Selected Honors and Awards
   type: time_table
   contents:
+    - year: 2022
+      items: 
+        - Best Paper Candidate, SenSys 2022
+    - year: 2022
+      items: 
+        - Best Poster Award, SenSys 2022
     - year: 2021
       items: 
         - N2Women Young Researcher Fellowship
