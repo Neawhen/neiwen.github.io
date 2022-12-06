@@ -54,23 +54,6 @@
         # - Description 1.
         # - Description 2.
 
-- title: Professional Skills
-  type: nested_list
-  contents:
-    - title: Programming Language
-      items: 
-        - Python
-        - C/C++ Language
-        - Verilog HDL
-        - Assembly Language
-    - title: Development Platform
-      items:
-        - NVIDIA Jetson TX2
-        - NVIDIA AGX Xavier
-        - FPGA
-        - Arduino
-        - 51 SCM
-        - STM32F1/STM32F4
 
 - title: Selected Honors and Awards
   type: time_table
@@ -94,12 +77,16 @@
 - title: Professional Services
   type: nested_list
   contents:
+    - title: Technical Program Committee 
+      items: 
+        - 16th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE 2023)
     - title: Organizer
       items: 
-        - N2Women Meeting in SenSys 2021
+        - N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)
     - title: Invited reviewer
       items:
         - IEEE Transactions on Mobile Computing (TMC)
+        - Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp)
     - title: Teaching Assistant
       items:
         - ENGG1100 Introduction to Engineering Design, 2018 Fall, CUHK
@@ -107,4 +94,21 @@
         - ENGG1110 Problem Solving by Programming, 2019/2020/2021 Fall, CUHK
         - IERG2602 Engineering Practicum, 2020/2021 Spring, CUHK
 
+- title: Professional Skills
+  type: nested_list
+  contents:
+    - title: Programming Language
+      items: 
+        - Python
+        - C/C++ Language
+        - Verilog HDL
+        - Assembly Language
+    - title: Development Platform
+      items:
+        - NVIDIA Jetson TX2
+        - NVIDIA AGX Xavier
+        - FPGA
+        - Arduino
+        - 51 SCM
+        - STM32F1/STM32F4
 
