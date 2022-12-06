@@ -55,44 +55,44 @@
         # - Description 2.
 
 
-- title: Selected Honors and Awards
-  type: time_table
-  contents:
-    - year: 2022
-      items: 
-        - Best Paper Finalist - SenSys 2022
-    - year: 2022
-      items: 
-        - Best Poster Award - SenSys 2022
-    - year: 2021
-      items: 
-        - N2Women Young Researcher Fellowship
-    - year: 2018-2022
-      items: 
-        - Postgraduate Scholarship
-    - year: 2018
-      items: 
-        - Undergraduate Excellent Graduation Project
+# - title: Selected Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2022
+#       items: 
+#         - Best Paper Finalist - SenSys 2022
+#     - year: 2022
+#       items: 
+#         - Best Poster Award - SenSys 2022
+#     - year: 2021
+#       items: 
+#         - N2Women Young Researcher Fellowship
+#     - year: 2018-2022
+#       items: 
+#         - Postgraduate Scholarship
+#     - year: 2018
+#       items: 
+#         - Undergraduate Excellent Graduation Project
 
-- title: Professional Services
-  type: nested_list
-  contents:
-    - title: Technical Program Committee 
-      items: 
-        - 16th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE 2023)
-    - title: Organizer
-      items: 
-        - N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)
-    - title: Invited reviewer
-      items:
-        - IEEE Transactions on Mobile Computing (TMC)
-        - Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp)
-    - title: Teaching Assistant
-      items:
-        - ENGG1100 Introduction to Engineering Design, 2018 Fall, CUHK
-        - IERG4230 Introduction to Internet of Things, 2019 Spring, CUHK
-        - ENGG1110 Problem Solving by Programming, 2019/2020/2021 Fall, CUHK
-        - IERG2602 Engineering Practicum, 2020/2021 Spring, CUHK
+# - title: Professional Services
+#   type: nested_list
+#   contents:
+#     - title: Technical Program Committee 
+#       items: 
+#         - 16th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE 2023)
+#     - title: Organizer
+#       items: 
+#         - N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)
+#     - title: Invited reviewer
+#       items:
+#         - IEEE Transactions on Mobile Computing (TMC)
+#         - Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp)
+#     - title: Teaching Assistant
+#       items:
+#         - ENGG1100 Introduction to Engineering Design, 2018 Fall, CUHK
+#         - IERG4230 Introduction to Internet of Things, 2019 Spring, CUHK
+#         - ENGG1110 Problem Solving by Programming, 2019/2020/2021 Fall, CUHK
+#         - IERG2602 Engineering Practicum, 2020/2021 Spring, CUHK
 
 - title: Professional Skills
   type: nested_list
