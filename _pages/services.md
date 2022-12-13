@@ -5,8 +5,8 @@ title: Services
 nav: true
 nav_order: 3
 ---
-<!-- **Technical Program Committee**\
-16th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE 2023) -->
+**Technical Program Committee**\
+The Eighth IEEE/ACM Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE 2023)
 
 **Organizer**\
 N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)
