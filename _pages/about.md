@@ -29,7 +29,7 @@ My research interests include *Edge AI, concurrent deep learning, real-time sche
 
 I completed my Ph.D.(2022) in Information Engineering from the Chinese University of Hong Kong, where I was advised by <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Professor Guoliang Xing</a> and worked on real-time AI. Before, I received my Bachelor's degree (2018) in Electronic and Information Engineering from Northwestern Polytechnical University.
 
-*I am on the job market. Feel free to contact me.*
+*I am on the job market. Feel free to contact me at lingnw@link.cuhk.edu.hk.*
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
