@@ -3,15 +3,13 @@
   contents:
     - name: Full Name
       value: Neiwen Ling
-    - name: Date of Birth
-      value: July 1996
     - name: Languages
       value: Chinese, English
 
 - title: Research Interests
   type: list
   contents:
-    - Internet of Things, Edge AI, Edge Computing, Real-time Deep Learning, Real-time Scheduling, Deep Learning System
+    - Edge AI, Smart City, Edge Computing, Deep Learning System, Real-time Scheduling
 
 - title: Education
   type: time_table
