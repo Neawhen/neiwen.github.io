@@ -6,7 +6,8 @@ nav: true
 nav_order: 3
 ---
 **Technical Program Committee**\
-The Eighth IEEE/ACM Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE 2023)
+The Eighth IEEE/ACM Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE 2023)\
+Poster \& Demo, The ACM/IEEE International Conference on Internet of Things Design and Implementation 2023 (IoTDI 2023 Poster \& Demo)
 
 **Organizer**\
 N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)

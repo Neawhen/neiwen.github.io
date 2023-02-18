@@ -8,10 +8,10 @@ nav_order: 2
 ---
 
 **Best Paper Finalist**\
-*ACM SenSys, 2022*
+*ACM SenSys, 2022, (top 3.3%)*
 
 **Best Poster Award**\
-*ACM SenSys, 2022*
+*ACM SenSys, 2022, (top 1.25%)*
 
 **N2Women Young Researcher Fellowship**\
 *ACM SenSys, 2021*
