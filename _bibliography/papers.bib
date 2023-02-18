@@ -51,7 +51,7 @@
   selected={true},
   title={BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference},
   author={Ling, Neiwen and Huang, Xuan and Zhao, Zhihe and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
-  journal={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
+  journal={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2022)},
   year={2022},
   award={Best Paper Finalist},
   accept={(Acceptance ratio: 52/208=25%)},
@@ -96,7 +96,7 @@
   RT-mDL aims to optimize the mixed DL task execution to meet their diverse real-time/accuracy requirements by exploiting unique compute characteristics of DL tasks. RT-mDL employs a novel storage-bounded model scaling method to generate a series of model variants, and systematically optimizes the DL task execution by joint model variants selection and task priority assignment. To improve the CPU/GPU utilization of mixed DL tasks, RT-mDL also includes a new priority-based scheduler which employs a GPU packing mechanism and executes the CPU/GPU tasks independently.
   Our implementation on an F1/10 autonomous driving testbed shows that, RT-mDL can enable multiple concurrent DL tasks to achieve satisfactory real-time performance in traffic light detection and sign recognition. Moreover, compared to state-of-the-art baselines, RT-mDL can reduce deadline missing rate by 40.12\% while only sacrificing 1.7\% model accuracy. 
   },
-  journal={Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems},
+  journal={Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2021)},
   pages={1--14},
   year={2021},
   doi={10.1145/3485730.3485938},
@@ -137,7 +137,7 @@
   In this paper, we introduce EdgeML, an AutoML framework that provides flexible and fine-grained DNN model execution control by combining workload offloading mechanism and dynamic progressive neural architecture. 
   To achieve desirable latency-accuracy-energy system performance on edge platforms, EdgeML adopts reinforcement learning to automatically update model execution policy in response to runtime dynamics in real-time. We implement EdgeML for several widely used DNN models on the latest edge devices. 
   Comparing to existing approaches, our experiments show that EdgeML achieves up to 8x performance improvement under dynamic environments.},
-  journal={Proceedings of the 6th International Conference on Internet-of-Things Design and Implementation},
+  journal={Proceedings of the 6th International Conference on Internet-of-Things Design and Implementation (ACM/IEEE IoTDI 2021)},
   pages={133--144},
   year={2021},
   doi={10.1145/3450268.3453520},
@@ -186,7 +186,7 @@
   bibtex_show={false},
   title={Timely Fusion of Surround Radar/Lidar for Object Detection in Autonomous Driving Systems},
   author={Xie, Wenjing and Hu, Tao and Ling, Neiwen and Xing, Guoliang and Liu, Shaoshan and Guan, Nan},
-  journal = {2023 Design, Automation & Test in Europe Conference & Exhibition, IEEE DATE 2023},
+  journal = {Design, Automation & Test in Europe Conference & Exhibition (IEEE DATE 2023)},
   year={2023},
 }
 
@@ -195,8 +195,15 @@
   bibtex_show={false},
   title={Moses: Exploiting Cross-device Transferable Features for On-device Tensor Program Optimization},
   author={Zhao, Zhihe and Shuai, Xian and Ling, Neiwen and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
-  journal = {The 24th International Workshop on Mobile Computing Systems and Applications},
+  journal = {The 24th International Workshop on Mobile Computing Systems and Applications (ACM HotMobile 2023)},
   year={2023},
+  abstract={Achieving efficient execution of machine learning models on mobile/edge devices has attracted significant attention recently. 
+  A key challenge is to generate high-performance tensor programs for each operator inside a DNN model efficiently. To this end, deep learning compilers have adopted auto-tuning approaches such as Ansor. 
+  However, it is challenging to optimize tensor codes for mobile/edge devices by auto-tuning due to limited time budgets and on-device resources. 
+  A key component of DNN compilers is the cost model that can predict the performance of each configuration on specific devices. 
+  However, current design of cost models cannot provide transferable features among different hardware accelerators efficiently and effectively. 
+  In this paper, we propose Moses, a simple yet efficient design based on the lottery ticket hypothesis, which fully takes advantage of the hardware-agnostic features transferable to the target device via domain adaptation to optimize the time-consuming auto-tuning process of DNN compiling on a new hardware platform. 
+  Compared with state-of-the-art approaches, Moses achieves up to 1.53X efficiency gain in the search stage and 1.41X inference speedup on challenging DNN benchmarks.},
   pdf={moses-hotmobile.pdf}
 }
 
@@ -205,6 +212,6 @@
   bibtex_show={false},
   title={CoEdge: A Cooperative Edge System for Distributed Real-Time Deep Learning Tasks},
   author={Jiang*, Zhehao and Ling*, Neiwen and Huang, Xuan and Shi, Shuyao and Wu, Chenhao and Zhao, Xiaoguang and Yan, Zhenyu and Xing, Guoliang},
-  journal = {conditionally accepted by The 22nd ACM/IEEE Conference on Information Processing in Sensor Networks, ACM/IEEE IPSN 2023},
+  journal = {conditionally accepted by The 22nd ACM/IEEE Conference on Information Processing in Sensor Networks (ACM/IEEE IPSN 2023)},
   year={2023},
 }
