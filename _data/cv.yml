@@ -37,6 +37,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Fellow
+      institution: The Department of Information Engineering, The Chinese University of Hong Kong 
+      year: 2022-present
+      description:
+        # - Description 1.
+        # - Description 2.
     - title: Visiting Ph.D. student
       institution: Shenzhen Institute of Artificial Intelligence and Robotics for Society 
       year: 2019
@@ -47,12 +53,6 @@
         #   contents:
         #     - Sub-description 1.
         #     - Sub-description 2.
-    - title: Postdoctoral Fellow
-      institution: The Department of Information Engineering, The Chinese University of Hong Kong 
-      year: 2022-present
-      description:
-        # - Description 1.
-        # - Description 2.
 
 
 # - title: Selected Honors and Awards
