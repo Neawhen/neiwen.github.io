@@ -61,6 +61,32 @@
   pdf={coedge_ipsn23.pdf}
 }
 
+
+@article{xie2023timely,
+  abbr={DATE'23},
+  title={Timely Fusion of Surround Radar/Lidar for Object Detection in Autonomous Driving Systems},
+  author={Xie, Wenjing and Hu, Tao and Ling, Neiwen and Xing, Guoliang and Liu, Shaoshan and Guan, Nan},
+  journal = {Design, Automation & Test in Europe Conference & Exhibition (IEEE DATE 2023)},
+  year={2023},
+}
+
+@article{zhao2023moses,
+  abbr={HotMobile'23},
+  title={Moses: Exploiting Cross-device Transferable Features for On-device Tensor Program Optimization},
+  author={Zhao, Zhihe and Shuai, Xian and Ling, Neiwen and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
+  journal = {The 24th International Workshop on Mobile Computing Systems and Applications (ACM HotMobile 2023)},
+  year={2023},
+  abstract={Achieving efficient execution of machine learning models on mobile/edge devices has attracted significant attention recently. 
+  A key challenge is to generate high-performance tensor programs for each operator inside a DNN model efficiently. To this end, deep learning compilers have adopted auto-tuning approaches such as Ansor. 
+  However, it is challenging to optimize tensor codes for mobile/edge devices by auto-tuning due to limited time budgets and on-device resources. 
+  A key component of DNN compilers is the cost model that can predict the performance of each configuration on specific devices. 
+  However, current design of cost models cannot provide transferable features among different hardware accelerators efficiently and effectively. 
+  In this paper, we propose Moses, a simple yet efficient design based on the lottery ticket hypothesis, which fully takes advantage of the hardware-agnostic features transferable to the target device via domain adaptation to optimize the time-consuming auto-tuning process of DNN compiling on a new hardware platform. 
+  Compared with state-of-the-art approaches, Moses achieves up to 1.53X efficiency gain in the search stage and 1.41X inference speedup on challenging DNN benchmarks.},
+  pdf={moses-hotmobile.pdf},
+  html={https://dl.acm.org/doi/abs/10.1145/3572864.3580330}
+}
+
 @article{ling2022blastnet,
   abbr={SenSys'22},
   selected={true},
@@ -163,23 +189,6 @@
   accept={(Acceptance ratio: 19/74=25.7%)}
 }
 
-@article{zhao2022moses,
-  abbr ={arXiv},
-  title={Moses: Efficient Exploitation of Cross-device Transferable Features for Tensor Program Optimization},
-  author={Zhao, Zhihe and Shuai, Xian and Bai, Yang and Ling, Neiwen and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
-  abstract = {Achieving efficient execution of machine learning models has attracted significant attention recently. 
-  To generate tensor programs efficiently, a key component of DNN compilers is the cost model that can predict the performance of each configuration on specific devices. 
-  However, due to the rapid emergence of hardware platforms, it is increasingly labor-intensive to train domain-specific predictors for every new platform. 
-  Besides, current design of cost models cannot provide transferable features between different hardware accelerators efficiently and effectively. 
-  In this paper, we propose Moses, a simple and efficient design based on the lottery ticket hypothesis, which fully takes advantage of the features transferable to the target device via domain adaptation. 
-  Compared with state-of-the-art approaches, Moses achieves up to 1.53X efficiency gain in the search stage and 1.41X inference speedup on challenging DNN benchmarks.},
-  journal={arXiv preprint arXiv:2201.05752},
-  year={2022},
-  url={https://arxiv.org/pdf/2201.05752.pdf},
-  html={https://arxiv.org/abs/2201.05752},
-  pdf={moses.pdf},
-}
-
 @article{ling2022dataset,
   abbr={SenSys'22Workshop},
   title={Dataset: An Indoor Smart Traffic Dataset and Data Collection System},
@@ -197,27 +206,20 @@
   dataset={{https://zenodo.org/record/7181314#%23.Y0a0qXZBxD8}}
 }
 
-@article{xie2023timely,
-  abbr={DATE'23},
-  title={Timely Fusion of Surround Radar/Lidar for Object Detection in Autonomous Driving Systems},
-  author={Xie, Wenjing and Hu, Tao and Ling, Neiwen and Xing, Guoliang and Liu, Shaoshan and Guan, Nan},
-  journal = {Design, Automation & Test in Europe Conference & Exhibition (IEEE DATE 2023)},
-  year={2023},
+@article{zhao2022moses,
+  abbr ={arXiv},
+  title={Moses: Efficient Exploitation of Cross-device Transferable Features for Tensor Program Optimization},
+  author={Zhao, Zhihe and Shuai, Xian and Bai, Yang and Ling, Neiwen and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
+  abstract = {Achieving efficient execution of machine learning models has attracted significant attention recently. 
+  To generate tensor programs efficiently, a key component of DNN compilers is the cost model that can predict the performance of each configuration on specific devices. 
+  However, due to the rapid emergence of hardware platforms, it is increasingly labor-intensive to train domain-specific predictors for every new platform. 
+  Besides, current design of cost models cannot provide transferable features between different hardware accelerators efficiently and effectively. 
+  In this paper, we propose Moses, a simple and efficient design based on the lottery ticket hypothesis, which fully takes advantage of the features transferable to the target device via domain adaptation. 
+  Compared with state-of-the-art approaches, Moses achieves up to 1.53X efficiency gain in the search stage and 1.41X inference speedup on challenging DNN benchmarks.},
+  journal={arXiv preprint arXiv:2201.05752},
+  year={2022},
+  url={https://arxiv.org/pdf/2201.05752.pdf},
+  html={https://arxiv.org/abs/2201.05752},
+  pdf={moses.pdf},
 }
 
-@article{zhao2023moses,
-  abbr={HotMobile'23},
-  title={Moses: Exploiting Cross-device Transferable Features for On-device Tensor Program Optimization},
-  author={Zhao, Zhihe and Shuai, Xian and Ling, Neiwen and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
-  journal = {The 24th International Workshop on Mobile Computing Systems and Applications (ACM HotMobile 2023)},
-  year={2023},
-  abstract={Achieving efficient execution of machine learning models on mobile/edge devices has attracted significant attention recently. 
-  A key challenge is to generate high-performance tensor programs for each operator inside a DNN model efficiently. To this end, deep learning compilers have adopted auto-tuning approaches such as Ansor. 
-  However, it is challenging to optimize tensor codes for mobile/edge devices by auto-tuning due to limited time budgets and on-device resources. 
-  A key component of DNN compilers is the cost model that can predict the performance of each configuration on specific devices. 
-  However, current design of cost models cannot provide transferable features among different hardware accelerators efficiently and effectively. 
-  In this paper, we propose Moses, a simple yet efficient design based on the lottery ticket hypothesis, which fully takes advantage of the hardware-agnostic features transferable to the target device via domain adaptation to optimize the time-consuming auto-tuning process of DNN compiling on a new hardware platform. 
-  Compared with state-of-the-art approaches, Moses achieves up to 1.53X efficiency gain in the search stage and 1.41X inference speedup on challenging DNN benchmarks.},
-  pdf={moses-hotmobile.pdf},
-  html={https://dl.acm.org/doi/abs/10.1145/3572864.3580330}
-}
