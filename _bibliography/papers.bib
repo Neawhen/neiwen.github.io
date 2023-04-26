@@ -45,6 +45,22 @@
   pdf={example_pdf.pdf},
 }
 
+@article{jiang2023coedge,
+  abbr={IPSN'23},
+  selected={true},
+  title={CoEdge: A Cooperative Edge System for Distributed Real-Time Deep Learning Tasks},
+  author={Jiang(co-primary), Zhehao and Ling(co-primary), Neiwen and Huang, Xuan and Shi, Shuyao and Wu, Chenhao and Zhao, Xiaoguang and Yan, Zhenyu and Xing, Guoliang},
+  journal = {The 22nd ACM/IEEE Conference on Information Processing in Sensor Networks (ACM/IEEE IPSN 2023)},
+  year={2023},
+  abstract={Recent years have witnessed the emergence of a new class of cooperative edge systems in which a large number of edge nodes can collaborate through local peer-to-peer connectivity. 
+  In this paper, we propose CoEdge, a novel cooperative edge system that can support concurrent data/compute-intensive deep learning (DL) models for distributed real-time applications such as city-scale traffic monitoring and autonomous driving. 
+  First, CoEdge includes a hierarchical DL task scheduling framework that dispatches DL tasks to edge nodes based on their computational profiles, communication overhead, and real-time requirements. 
+  Second, CoEdge can dramatically increase the execution efficiency of DL models by batching sensor data and aggregating the inferences of the same model.
+  Finally, we propose a new edge containerization approach that enables an edge node to execute concurrent DL tasks by partitioning the CPU and GPU workloads into different containers.
+  We extensively evaluate CoEdge on a self-deployed smart lamppost testbed on a university campus. Our results show that CoEdge can achieve up to 82.32% reduction on deadline missing rate compared to baselines.},
+  pdf={coedge_ipsn23.pdf}
+}
+
 @article{ling2022blastnet,
   abbr={SenSys'22},
   selected={true},
@@ -204,20 +220,4 @@
   Compared with state-of-the-art approaches, Moses achieves up to 1.53X efficiency gain in the search stage and 1.41X inference speedup on challenging DNN benchmarks.},
   pdf={moses-hotmobile.pdf},
   html={https://dl.acm.org/doi/abs/10.1145/3572864.3580330}
-}
-
-@article{jiang2023coedge,
-  abbr={IPSN'23},
-  selected={true},
-  title={CoEdge: A Cooperative Edge System for Distributed Real-Time Deep Learning Tasks},
-  author={Jiang(co-primary), Zhehao and Ling(co-primary), Neiwen and Huang, Xuan and Shi, Shuyao and Wu, Chenhao and Zhao, Xiaoguang and Yan, Zhenyu and Xing, Guoliang},
-  journal = {The 22nd ACM/IEEE Conference on Information Processing in Sensor Networks (ACM/IEEE IPSN 2023)},
-  year={2023},
-  abstract={Recent years have witnessed the emergence of a new class of cooperative edge systems in which a large number of edge nodes can collaborate through local peer-to-peer connectivity. 
-  In this paper, we propose CoEdge, a novel cooperative edge system that can support concurrent data/compute-intensive deep learning (DL) models for distributed real-time applications such as city-scale traffic monitoring and autonomous driving. 
-  First, CoEdge includes a hierarchical DL task scheduling framework that dispatches DL tasks to edge nodes based on their computational profiles, communication overhead, and real-time requirements. 
-  Second, CoEdge can dramatically increase the execution efficiency of DL models by batching sensor data and aggregating the inferences of the same model.
-  Finally, we propose a new edge containerization approach that enables an edge node to execute concurrent DL tasks by partitioning the CPU and GPU workloads into different containers.
-  We extensively evaluate CoEdge on a self-deployed smart lamppost testbed on a university campus. Our results show that CoEdge can achieve up to 82.32% reduction on deadline missing rate compared to baselines.},
-  pdf={coedge_ipsn23.pdf}
 }
