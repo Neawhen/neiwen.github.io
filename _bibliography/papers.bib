@@ -76,8 +76,7 @@
   We extensively evaluate CoEdge on a self-deployed smart lamppost testbed on a university campus. Our results show that CoEdge can achieve up to 82.32% reduction on deadline missing rate compared to baselines.},
   pdf={coedge_ipsn23.pdf},
   accept={(Acceptance ratio: 22/83=26.51%)},
-  html={https://dl.acm.org/doi/10.1145/3583120.3586955},
-  slides = {coedge_slides.pdf}
+  html={https://dl.acm.org/doi/10.1145/3583120.3586955}
 }
 
 
@@ -87,6 +86,13 @@
   author={Xie, Wenjing and Hu, Tao and Ling, Neiwen and Xing, Guoliang and Liu, Shaoshan and Guan, Nan},
   journal = {Design, Automation & Test in Europe Conference & Exhibition (IEEE DATE 2023)},
   year={2023},
+  abstract={Fusion of multiple sensor modalities, such as camera, Lidar and Radar, are commonly used in autonomous driving systems to fully utilize the complementary advantages of different sensors. 
+  Surround Radar/Lidar can provide 360-degree view sampling with the minimal cost, which are promising sensing hardware solutions for autonomous driving systems. However, due to the intrinsic physical constraints, the rotating speed (i.e., the frequency to generate data frames) of surround Radar is much lower than surround Lidar, and existing Radar/Lidar fusion methods have to work at the low frequency of surround Radar, which cannot meet the high responsiveness requirement of autonomous driving systems. 
+  This paper develops techniques to fuse surround Radar/Lidar with working frequency only limited by the faster surround Lidar instead of the slower surround Radar, based on the state-of-the-art Radar/Lidar DNN model MVDNet. 
+  The basic idea of our approach is simple: we let MVDNet work with temporally unaligned data from Radar/Lidar, so that fusion can take place at any time when a new Lidar data frame arrives, instead of waiting for the slow Radar data frame. 
+  However, directly applying MVDNet to temporally unaligned Radar/Lidar data greatly degrades its object detection accuracy. 
+  The key information revealed in this paper is that we can achieve high output frequency with little accuracy loss by enhancing the training procedure to explore the temporal redundancy in fusion procedure of MVDNet so that it can tolerate the temporal unalignment of the input data. 
+  We explore several different ways of training enhancement and compare them quantitatively with experiments.}
 }
 
 @article{zhao2023moses,
