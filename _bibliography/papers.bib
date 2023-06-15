@@ -45,6 +45,22 @@
   pdf={example_pdf.pdf},
 }
 
+@article{ouyang2023Harmony,
+  abbr={MobiSys'23},
+  title={Harmony: Heterogeneous Multi-Modal Federated Learning through Disentangled Model Training},
+  author={Ouyang, Xiaomin and Xie, Zhiyuan and Fu, Heming and Pan, Li and Chen, Sitong and Ling, Neiwen and Xing, Guoliang and Zhou, Jiayu and Huang, Jianwei},
+  journal = {The 21st ACM International Conference on Mobile Systems, Applications, and Services (ACM MobiSys 2023)},
+  year={2023},
+  abstract={Multi-modal sensing systems are increasingly prevalent in realworld applications such as health monitoring and autonomous driving. Most multi-modal learning approaches need to access users’ raw data, which poses significant concerns to users’ privacy. Federated learning (FL) provides a privacy-aware distributed learning framework. 
+  However, current FL approaches have not addressed the unique challenges of heterogeneous multi-modal FL systems, such as modality heterogeneity and significantly longer training delay. 
+  In this paper, we propose Harmony, a new system for heterogeneous multi-modal federated learning. Harmony disentangles the multimodal network training in a novel two-stage framework, namely modality-wise federated learning and federated fusion learning. 
+  By integrating a novel balance-aware resource allocation mechanism in modality-wise FL and exploiting modality biases in federated fusion learning, Harmony improves the model accuracy under noni.i.d. data distributions and speeds up system convergence. 
+  We implemented Harmony on a real-world multi-modal sensor testbed deployed in the homes of 16 elderly subjects for Alzheimer’s Disease monitoring. 
+  Our evaluation on the testbed and three large-scale public datasets of different applications show that, Harmony outperforms by up to 46.35% accuracy over state-of-the-art baselines
+  and saves up to 30% training delay.},
+  accept={(Acceptance ratio: 41/198=20.7%)}
+}
+
 @article{jiang2023coedge,
   abbr={IPSN'23},
   selected={true},
@@ -58,7 +74,10 @@
   Second, CoEdge can dramatically increase the execution efficiency of DL models by batching sensor data and aggregating the inferences of the same model.
   Finally, we propose a new edge containerization approach that enables an edge node to execute concurrent DL tasks by partitioning the CPU and GPU workloads into different containers.
   We extensively evaluate CoEdge on a self-deployed smart lamppost testbed on a university campus. Our results show that CoEdge can achieve up to 82.32% reduction on deadline missing rate compared to baselines.},
-  pdf={coedge_ipsn23.pdf}
+  pdf={coedge_ipsn23.pdf},
+  accept={(Acceptance ratio: 22/83=26.51%)},
+  html={https://dl.acm.org/doi/10.1145/3583120.3586955},
+  slides = {CoEdge_slides.pdf}
 }
 
 
