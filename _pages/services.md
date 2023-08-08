@@ -15,7 +15,9 @@ N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems 
 **Invited Reviewer**\
 IEEE Transactions on Mobile Computing (TMC)\
 Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp)\
-The First Workshop on DL-Hardware Co-Design for AI Acceleration in the 37th AAAI Conference on Artificial Intelligence
+The First Workshop on DL-Hardware Co-Design for AI Acceleration in the 37th AAAI Conference on Artificial Intelligence\
+SCIENCE CHINA Information Sciences (SCIS)\
+ACM Transactions on Sensor Networks (TOSN)
 
 **Teaching Assistant**\
 ENGG1100 Introduction to Engineering Design, 2018 Fall, CUHK\
