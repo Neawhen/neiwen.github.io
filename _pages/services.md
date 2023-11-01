@@ -19,7 +19,8 @@ The First Workshop on DL-Hardware Co-Design for AI Acceleration in the 37th AAAI
 SCIENCE CHINA Information Sciences (SCIS)\
 ACM Transactions on Sensor Networks (TOSN)\
 IEEE International Conference on Computer Communications (INFOCOM 2024)\
-IEEE Network Magazine
+IEEE Network Magazine\
+ACM Transactions on Computing for Healthcare (HEALTH)
 
 **Teaching Assistant**\
 ENGG1100 Introduction to Engineering Design, 2018 Fall, CUHK\

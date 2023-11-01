@@ -19,19 +19,15 @@ social: true  # includes social icons at the bottom of the page
 
 
 
+Neiwen Ling is currently a Postdoctoral Associate in the Efficient Computing Lab at Yale, working with <a href="https://www.linzhong.org/" target="_blank" rel="noopener noreferrer">Prof. Lin Zhong</a>. She completed her Ph.D.(2022) at the Chinese University of Hong Kong, under the supervision of <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Professor Guoliang Xing</a>. Additionally, she works as a Postdoctoral Fellow within the same research group during 2022-2023. She also works closely with <a href="https://www.cs.cityu.edu.hk/~nanguan/" target="_blank" rel="noopener noreferrer">Prof. Nan Guan</a> and <a href="https://yanzhenyu.com/" target="_blank" rel="noopener noreferrer">Prof. Zhenyu Yan</a>.
 
+Her research falls in the intersection of Edge Computing, Machine Learning and Real-time System. She focuses on the intelligence and real-time capabilities of edge devices, with a goal of developing real-time systems for AI applications such as smart city and autonomous driving. 
+She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, IPSN, MobiSys, and IoTDI), and received the ACM SenSys 2022 Best Paper Award Finalist and the ACM SenSys 2022 Best Poster Award. She has served as the reviewer or program committee member for several ACM/IEEE flagship journals/conferences, including TMC, IMWUT/UbiComp, TOSN, CHASE 2023, INFOCOM 2024, and IoTDI 2023 (Poster & Demo track).
 
-
-
-I am currently a Postdoctoral Fellow in <a href="http://aiot.ie.cuhk.edu.hk/index.html" target="_blank" rel="noopener noreferrer">AIoT Lab</a> at the Chinese University of Hong Kong, advised by <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Professor Guoliang Xing</a>. 
-I also work closely with <a href="https://www.cs.cityu.edu.hk/~nanguan/" target="_blank" rel="noopener noreferrer">Prof. Nan Guan</a> and <a href="https://yanzhenyu.com/" target="_blank" rel="noopener noreferrer">Prof. Zhenyu Yan</a>.
-My research interests include *Edge AI, Smart City, Edge Computing, Deep Learning System, and new approaches for on-device deep learning*.
-
-I completed my Ph.D.(2022) in Information Engineering from the Chinese University of Hong Kong, where I was advised by <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Professor Guoliang Xing</a> and worked on Edge AI. Before, I received my Bachelor's degree (2018) in Electronic and Information Engineering from Northwestern Polytechnical University.
-
-*I am on the job market. Feel free to contact me at lingnw@link.cuhk.edu.hk.*
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+
+*I am on the job market. Feel free to contact me at neiwen.ling@yale.edu.*
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
