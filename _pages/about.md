@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: "neiwen.jpg"
+  image: "neiwen23-11.jpg"
   image_circular: false # crops the image to make it circular
   address: 
     # lingnw@link.cuhk.edu.hk
