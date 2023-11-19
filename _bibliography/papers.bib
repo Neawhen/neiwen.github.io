@@ -45,12 +45,32 @@
   pdf={example_pdf.pdf}
 }
 
+
+@article{zhao2023unify,
+  abbr={SenSys'23 Poster},
+  title={Unifying On-device Tensor Program Optimization through Large Foundation Model},
+  author={Zhao, Zhihe and Ling, Neiwen and Liu, Kaiwei and Guan, Nan and Xing, Guoliang},
+  journal = {Proceedings of the 21th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2023)},
+  pdf={sensys23-unifying.pdf},
+  abstract={We present TensorBind, a novel approach aimed at unifying different hardware architectures for compilation optimization. 
+  Our proposed framework establishes an embedding space to seamlessly bind diverse hardware platforms together. By leveraging this unified representation, TensorBind enables efficient tensor program optimization techniques across a wide range of hardware platforms. 
+  We provide experimental results demonstrating the essentiality and adaptability of TensorBind in translating tensor program optimization records across multiple hardware architectures, 
+  thus revolutionizing compilation optimization strategies and facilitating the development of high-performance compilation systems over heterogeneous devices.},
+  year={2023}
+}
+
 @article{zhao2023miriam,
   abbr={SenSys'23},
   selected={true},
   title={Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU},
   author={Zhao, Zhihe and Ling, Neiwen and Guan, Nan and Xing, Guoliang},
   journal = {Proceedings of the 21th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2023)},
+  pdf={sensys23-miriam.pdf},
+  html={https://arxiv.org/abs/2307.04339},
+  abstract={Many applications such as autonomous driving and augmented reality, require the concurrent running of multiple deep neural networks (DNN) that poses different levels of real-time performance requirements. 
+  However, coordinating multiple DNN tasks wth varying levels of criticality on edge GPUs remains an area of limited study. Unlike server-level GPUs, edge GPUs are resourcelimited and lack hardware-level resource management mechanisms for avoiding resource contention. 
+  Therefore, we propose Miriam, a contention-aware task coordination framework for multi-DNN inference on edge GPU. Miriam consolidates two main components, an elastic-kernel generator, and a runtime dynamic kernel coordinator, to support mixed critical DNN inference. 
+  To evaluate Miriam, we build a new DNN inference benchmark based on CUDA with diverse representative DNN workloads. Experiments on two edge GPU platforms show that Miriam can increase system throughput by 92% while only incurring less than 10% latency overhead for critical tasks, compared to state of art baselines.},
   year={2023},
   accept={(Acceptance ratio: 34/179=18.99%)}
 }
@@ -61,6 +81,11 @@
   title={EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge},
   author={Yang, Bufang and He, Lixing and Ling, Neiwen and Yan, Zhenyu and Xing, Guoliang and Shuai, Xian and Ren Xiaozhe and Xin Jiang},
   journal = {Proceedings of the 21th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2023)},
+  pdf={sensys23-edgefm.pdf},
+  abstract={Deep Learning (DL) models have been widely deployed on IoT devices with the help of advancements in DL algorithms and chips. 
+  However, the limited resources of edge devices make these ondevice DL models hard to be generalizable to diverse environments and tasks. Although the recently emerged foundation models (FMs) show impressive generalization power, how to effectively leverage the rich knowledge of FMs on resource-limited edge devices is still not explored. 
+  In this paper, we propose EdgeFM, a novel edge-cloud cooperative system with open-set recognition capability. EdgeFM selectively uploads unlabeled data to query the FM on the cloud and customizes the specific knowledge and architectures for edge models. Meanwhile, EdgeFM conducts dynamic model switching at run-time taking into account both data uncertainty and dynamic network variations, which ensures the accuracy always close to the original FM. 
+  We implement EdgeFM using two FMs on two edge platforms. We evaluate EdgeFM on three public datasets and two self-collected datasets. Results show that EdgeFM can reduce the end-to-end latency up to 3.2x and achieve 34.3% accuracy increase compared with the baseline.},
   year={2023},
   accept={(Acceptance ratio: 34/179=18.99%)}
 }
@@ -71,6 +96,8 @@
   author={Ouyang, Xiaomin and Xie, Zhiyuan and Fu, Heming and Pan, Li and Chen, Sitong and Ling, Neiwen and Xing, Guoliang and Zhou, Jiayu and Huang, Jianwei},
   journal = {The 21st ACM International Conference on Mobile Systems, Applications, and Services (ACM MobiSys 2023)},
   year={2023},
+  html={https://dl.acm.org/doi/abs/10.1145/3581791.3596844},
+  pdf={mobisys23_harmony.pdf},
   abstract={Multi-modal sensing systems are increasingly prevalent in realworld applications such as health monitoring and autonomous driving. Most multi-modal learning approaches need to access users’ raw data, which poses significant concerns to users’ privacy. Federated learning (FL) provides a privacy-aware distributed learning framework. 
   However, current FL approaches have not addressed the unique challenges of heterogeneous multi-modal FL systems, such as modality heterogeneity and significantly longer training delay. 
   In this paper, we propose Harmony, a new system for heterogeneous multi-modal federated learning. Harmony disentangles the multimodal network training in a novel two-stage framework, namely modality-wise federated learning and federated fusion learning. 
