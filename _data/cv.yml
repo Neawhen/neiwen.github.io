@@ -35,9 +35,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Associate
+      institution: The Department of Computer Science, Yale University
+      year: 2023-present
+      description:
     - title: Postdoctoral Fellow
       institution: The Department of Information Engineering, The Chinese University of Hong Kong 
-      year: 2022-present
+      year: 2022-2023
       description:
         # - Description 1.
         # - Description 2.

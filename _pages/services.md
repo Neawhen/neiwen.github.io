@@ -5,12 +5,14 @@ title: Services
 nav: true
 nav_order: 3
 ---
+
+**Technical Program Committee Chair / Organizer**\
+International Workshop on Foundation Models for Cyber-Physical Systems $\&$ Internet of Things (FMSys'24), in Cyber-Physical Systems and Internet-of-Things Week 2024 (CPS-IoT Week 2024)
+N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)
+
 **Technical Program Committee**\
 The Eighth IEEE/ACM Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE 2023)\
 Poster & Demo, The ACM/IEEE International Conference on Internet of Things Design and Implementation 2023 (IoTDI 2023 Poster & Demo)
-
-**Organizer**\
-N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)
 
 **Invited Reviewer**\
 IEEE Transactions on Mobile Computing (TMC)\
@@ -20,7 +22,8 @@ SCIENCE CHINA Information Sciences (SCIS)\
 ACM Transactions on Sensor Networks (TOSN)\
 IEEE International Conference on Computer Communications (INFOCOM 2024)\
 IEEE Network Magazine\
-ACM Transactions on Computing for Healthcare (HEALTH)
+ACM Transactions on Computing for Healthcare (HEALTH)\
+ACM Transactions on Internet of Things (TIOT)
 
 **Teaching Assistant**\
 ENGG1100 Introduction to Engineering Design, 2018 Fall, CUHK\
