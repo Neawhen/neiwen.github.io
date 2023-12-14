@@ -7,7 +7,7 @@ nav_order: 3
 ---
 
 **Technical Program Committee Chair / Organizer**\
-International Workshop on Foundation Models for Cyber-Physical Systems $\&$ Internet of Things (FMSys'24), in Cyber-Physical Systems and Internet-of-Things Week 2024 (CPS-IoT Week 2024)\
+International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things (FMSys'24), in Cyber-Physical Systems and Internet-of-Things Week 2024 (CPS-IoT Week 2024)\
 N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)
 
 **Technical Program Committee**\
