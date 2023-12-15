@@ -45,6 +45,97 @@
   pdf={example_pdf.pdf}
 }
 
+@article{ling2022blastnet,
+  abbr={SenSys'22},
+  selected={true},
+  title={BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference},
+  author={Ling, Neiwen and Huang, Xuan and Zhao, Zhihe and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
+  journal={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2022)},
+  year={2022},
+  award={Best Paper Finalist},
+  accept={(Acceptance ratio: 52/208=25%)},
+  abstract = {In recent years, Deep Neural Network (DNN) has been increasingly adopted by a wide range of time-critical applications running on 
+  edge platforms with heterogeneous multiprocessors. To meet the stringent timing requirements of these applications, heterogeneous 
+  CPU and GPU resources must be efficiently utilized for the inference of multiple DNN models. Such a cross-processor real-time 
+  DNN inference paradigm poses major challenges due to the inherent performance imbalance among different processors and the lack 
+  of real-time support for cross-processor inference from existing deep learning frameworks. In this work, we propose a new system 
+  named BlastNet that exploits duo-block - a new model inference abstraction to support highly efficient cross-processor real-time DNN 
+  inference. Each duo-block has a dual model structure, enabling efficient fine-grained inference alternatively across different processors. BlastNet employs a novel block-level Neural Architecture 
+  Search (NAS) technique to generate duo-blocks, which accounts for computing characteristics and communication overhead. The duoblocks are optimized at design time and then dynamically scheduled 
+  to achieve high resource utilization of heterogeneous CPU and GPU at runtime. BlastNet is implemented on an indoor autonomous driving platform and three popular edge platforms. Extensive results 
+  show that BlastNet achieves 35.07 % less deadline missing rate with a mere 1.63% of model accuracy loss.},
+  pdf = {blastnet_sensys2022.pdf},
+  html={https://dl.acm.org/doi/abs/10.1145/3560905.3568520},
+  slides={Blastnet-slides.pdf}
+}
+
+@article{ling2021rt,
+  abbr={SenSys'21},
+  selected={true},
+  title={RT-mDL: Supporting Real-Time Mixed Deep Learning Tasks on Edge Platforms},
+  author={Ling, Neiwen and Wang, Kai and He, Yuze and Xing, Guoliang and Xie, Daqi},
+  abstract={Recent years have witnessed an emerging class of real-time applications, e.g., autonomous driving, in which resource-constrained edge platforms need to execute a set of real-time mixed Deep Learning (DL) tasks concurrently. Such an application paradigm poses major challenges due to the huge compute workload of deep neural network models, diverse performance requirements of different tasks, and the lack of real-time support from existing DL frameworks. In this paper, we present RT-mDL, a novel framework to support mixed real-time DL tasks on edge platform with heterogeneous CPU and GPU resource. 
+  RT-mDL aims to optimize the mixed DL task execution to meet their diverse real-time/accuracy requirements by exploiting unique compute characteristics of DL tasks. RT-mDL employs a novel storage-bounded model scaling method to generate a series of model variants, and systematically optimizes the DL task execution by joint model variants selection and task priority assignment. To improve the CPU/GPU utilization of mixed DL tasks, RT-mDL also includes a new priority-based scheduler which employs a GPU packing mechanism and executes the CPU/GPU tasks independently.
+  Our implementation on an F1/10 autonomous driving testbed shows that, RT-mDL can enable multiple concurrent DL tasks to achieve satisfactory real-time performance in traffic light detection and sign recognition. Moreover, compared to state-of-the-art baselines, RT-mDL can reduce deadline missing rate by 40.12\% while only sacrificing 1.7\% model accuracy. 
+  },
+  journal={Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2021)},
+  pages={1--14},
+  year={2021},
+  doi={10.1145/3485730.3485938},
+  url={https://dl.acm.org/doi/pdf/10.1145/3485730.3485938},
+  html={https://dl.acm.org/doi/abs/10.1145/3485730.3485938},
+  pdf={RT-mDL_SenSys2021.pdf},
+  accept={(Acceptance ratio: 25/139=17.98%)},
+  video={https://www.youtube.com/watch?v=9Hh1NOyXqPU&t=8s},
+  demo={https://www.youtube.com/watch?v=7-_t1MrIo04},
+  slides={RT-mDL-slides.pdf}
+}
+
+@article{2024soar,
+  abbr={MobiCom'24},
+  selected={true},
+  title={Soar: Design and Deployment of A Smart Roadside Infrastructure System for Autonomous Driving},
+  author={Shi(co-primary), Shuyao and Ling(co-primary), Neiwen and Jiang(co-primary), Zhehao and Huang(co-primary), Xuan and He, Yuze and Zhao, Xiaoguang and Yang, Bufang and Bian, Chen and Xia, Jingfei and Yan, Zhenyu and Yeung, Raymond and Xing, Guoliang},
+  journal = {The 30th Annual International Conference on Mobile Computing And Networking (ACM MobiCom 2024)},
+  abstract={Recently, smart roadside infrastructure (SRI) has demonstrated the potential of achieving fully autonomous driving systems. 
+  To explore the potential of infrastructure-assisted autonomous driving, this paper presents the design and deployment of Soar, 
+  the first end-to-end SRI system specifically designed to support autonomous driving systems. 
+  Soar consists of both software and hardware components carefully designed to overcome various system and physical challenges. Soar can leverage the existing operational infrastructure like street lampposts for a lower barrier of adoption. Soar adopts a new communication architecture that comprises a bi-directional multi-hop I2I network and a downlink I2V broadcast service, which are designed based on off-the-shelf 802.11ac interfaces in an integrated manner. 
+  Soar also features a hierarchical DL task management framework to achieve desirable load balancing among nodes and enable them to collaborate efficiently to run multiple data-intensive autonomous driving applications. We deployed a total of 18 Soar nodes on existing lampposts on campus, which have been operational for over two years. Our real-world evaluation shows that Soar can support a diverse set of autonomous driving applications and achieve desirable real-time performance and high communication reliability. 
+  Our findings and experiences in this work offer key insights into the development and deployment of next-generation smart roadside infrastructure and autonomous driving systems.},
+  year={2024}
+}
+
+@article{jiang2023coedge,
+  abbr={IPSN'23},
+  selected={true},
+  title={CoEdge: A Cooperative Edge System for Distributed Real-Time Deep Learning Tasks},
+  author={Jiang(co-primary), Zhehao and Ling(co-primary), Neiwen and Huang, Xuan and Shi, Shuyao and Wu, Chenhao and Zhao, Xiaoguang and Yan, Zhenyu and Xing, Guoliang},
+  journal = {The 22nd ACM/IEEE Conference on Information Processing in Sensor Networks (ACM/IEEE IPSN 2023)},
+  year={2023},
+  pdf={coedge_ipsn23.pdf},
+  accept={(Acceptance ratio: 22/83=26.51%)},
+  html={https://dl.acm.org/doi/10.1145/3583120.3586955},
+  slides={CoEdge_slides.pdf}
+}
+
+
+@article{zhao2022iot,
+  abbr={SenSys'22Poster},
+  selected={true},
+  title={Aaron: Compile-time Kernel Adaptation for Multi-DNN Inference Acceleration on Edge GPU},
+  author={Zhao, Zhihe and Ling, Neiwen and Guan, Nan and Xing, Guoliang},
+  journal={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
+  year={2022},
+  award={Best Poster Award},
+  abstract={AI applications powered by deep learning are increasingly running on edge devices. Meanwhile, many real-world IoT applications demand multiple real-time tasks to run on the same device, for
+  example, to achieve both object tracking and image segmentation simultaneously on an augmented reality glass. However, the current solutions can not yet support such multi-tenant real-time DNN inference 
+  on edge devices. Techniques such as on-device model compression trade inference accuracy for speed, while traditional DNN compilers mainly focus on single-tenant DNN model optimization. 
+  To fill this gap, we propose Aaron, which leverages DNN compiling techniques to accelerate multi-DNN inference on edge GPU based on compile-time kernel adaptation with no accuracy loss. 
+  Aaron integrates both DNN graph and kernel optimization to maximize on-device parallelism and minimize contention brought by concurrent inference.},
+  pdf={aaron_sensys2022.pdf},
+  html={https://dl.acm.org/doi/10.1145/3560905.3568050}
+}
 
 @article{zhao2023unify,
   abbr={SenSys'23 Poster},
@@ -107,19 +198,6 @@
   accept={(Acceptance ratio: 41/198=20.7%)}
 }
 
-@article{jiang2023coedge,
-  abbr={IPSN'23},
-  selected={true},
-  title={CoEdge: A Cooperative Edge System for Distributed Real-Time Deep Learning Tasks},
-  author={Jiang(co-primary), Zhehao and Ling(co-primary), Neiwen and Huang, Xuan and Shi, Shuyao and Wu, Chenhao and Zhao, Xiaoguang and Yan, Zhenyu and Xing, Guoliang},
-  journal = {The 22nd ACM/IEEE Conference on Information Processing in Sensor Networks (ACM/IEEE IPSN 2023)},
-  year={2023},
-  pdf={coedge_ipsn23.pdf},
-  accept={(Acceptance ratio: 22/83=26.51%)},
-  html={https://dl.acm.org/doi/10.1145/3583120.3586955},
-  slides={CoEdge_slides.pdf}
-}
-
 
 @article{xie2023timely,
   abbr={DATE'23},
@@ -153,69 +231,7 @@
   html={https://dl.acm.org/doi/abs/10.1145/3572864.3580330}
 }
 
-@article{ling2022blastnet,
-  abbr={SenSys'22},
-  selected={true},
-  title={BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference},
-  author={Ling, Neiwen and Huang, Xuan and Zhao, Zhihe and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
-  journal={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2022)},
-  year={2022},
-  award={Best Paper Finalist},
-  accept={(Acceptance ratio: 52/208=25%)},
-  abstract = {In recent years, Deep Neural Network (DNN) has been increasingly adopted by a wide range of time-critical applications running on 
-  edge platforms with heterogeneous multiprocessors. To meet the stringent timing requirements of these applications, heterogeneous 
-  CPU and GPU resources must be efficiently utilized for the inference of multiple DNN models. Such a cross-processor real-time 
-  DNN inference paradigm poses major challenges due to the inherent performance imbalance among different processors and the lack 
-  of real-time support for cross-processor inference from existing deep learning frameworks. In this work, we propose a new system 
-  named BlastNet that exploits duo-block - a new model inference abstraction to support highly efficient cross-processor real-time DNN 
-  inference. Each duo-block has a dual model structure, enabling efficient fine-grained inference alternatively across different processors. BlastNet employs a novel block-level Neural Architecture 
-  Search (NAS) technique to generate duo-blocks, which accounts for computing characteristics and communication overhead. The duoblocks are optimized at design time and then dynamically scheduled 
-  to achieve high resource utilization of heterogeneous CPU and GPU at runtime. BlastNet is implemented on an indoor autonomous driving platform and three popular edge platforms. Extensive results 
-  show that BlastNet achieves 35.07 % less deadline missing rate with a mere 1.63% of model accuracy loss.},
-  pdf = {blastnet_sensys2022.pdf},
-  html={https://dl.acm.org/doi/abs/10.1145/3560905.3568520},
-  slides={Blastnet-slides.pdf}
-}
 
-
-@article{zhao2022iot,
-  abbr={SenSys'22Poster},
-  selected={true},
-  title={Aaron: Compile-time Kernel Adaptation for Multi-DNN Inference Acceleration on Edge GPU},
-  author={Zhao, Zhihe and Ling, Neiwen and Guan, Nan and Xing, Guoliang},
-  journal={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
-  year={2022},
-  award={Best Poster Award},
-  abstract={AI applications powered by deep learning are increasingly running on edge devices. Meanwhile, many real-world IoT applications demand multiple real-time tasks to run on the same device, for
-  example, to achieve both object tracking and image segmentation simultaneously on an augmented reality glass. However, the current solutions can not yet support such multi-tenant real-time DNN inference 
-  on edge devices. Techniques such as on-device model compression trade inference accuracy for speed, while traditional DNN compilers mainly focus on single-tenant DNN model optimization. 
-  To fill this gap, we propose Aaron, which leverages DNN compiling techniques to accelerate multi-DNN inference on edge GPU based on compile-time kernel adaptation with no accuracy loss. 
-  Aaron integrates both DNN graph and kernel optimization to maximize on-device parallelism and minimize contention brought by concurrent inference.},
-  pdf={aaron_sensys2022.pdf},
-  html={https://dl.acm.org/doi/10.1145/3560905.3568050}
-}
-
-@article{ling2021rt,
-  abbr={SenSys'21},
-  selected={true},
-  title={RT-mDL: Supporting Real-Time Mixed Deep Learning Tasks on Edge Platforms},
-  author={Ling, Neiwen and Wang, Kai and He, Yuze and Xing, Guoliang and Xie, Daqi},
-  abstract={Recent years have witnessed an emerging class of real-time applications, e.g., autonomous driving, in which resource-constrained edge platforms need to execute a set of real-time mixed Deep Learning (DL) tasks concurrently. Such an application paradigm poses major challenges due to the huge compute workload of deep neural network models, diverse performance requirements of different tasks, and the lack of real-time support from existing DL frameworks. In this paper, we present RT-mDL, a novel framework to support mixed real-time DL tasks on edge platform with heterogeneous CPU and GPU resource. 
-  RT-mDL aims to optimize the mixed DL task execution to meet their diverse real-time/accuracy requirements by exploiting unique compute characteristics of DL tasks. RT-mDL employs a novel storage-bounded model scaling method to generate a series of model variants, and systematically optimizes the DL task execution by joint model variants selection and task priority assignment. To improve the CPU/GPU utilization of mixed DL tasks, RT-mDL also includes a new priority-based scheduler which employs a GPU packing mechanism and executes the CPU/GPU tasks independently.
-  Our implementation on an F1/10 autonomous driving testbed shows that, RT-mDL can enable multiple concurrent DL tasks to achieve satisfactory real-time performance in traffic light detection and sign recognition. Moreover, compared to state-of-the-art baselines, RT-mDL can reduce deadline missing rate by 40.12\% while only sacrificing 1.7\% model accuracy. 
-  },
-  journal={Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2021)},
-  pages={1--14},
-  year={2021},
-  doi={10.1145/3485730.3485938},
-  url={https://dl.acm.org/doi/pdf/10.1145/3485730.3485938},
-  html={https://dl.acm.org/doi/abs/10.1145/3485730.3485938},
-  pdf={RT-mDL_SenSys2021.pdf},
-  accept={(Acceptance ratio: 25/139=17.98%)},
-  video={https://www.youtube.com/watch?v=9Hh1NOyXqPU&t=8s},
-  demo={https://www.youtube.com/watch?v=7-_t1MrIo04},
-  slides={RT-mDL-slides.pdf}
-}
 
 @article{zhao2018ecrt,
   abbr={SenSys'18Demo},
