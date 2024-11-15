@@ -23,11 +23,13 @@ Neiwen Ling is currently a Postdoctoral Associate in the Efficient Computing Lab
 
 Her research interests lie at the intersection of Edge Computing, Machine Learning, Cyber-Physical Systems (CPS), and Real-time Systems. She focuses on advancing **time-sensitive AI systems**, with an emphasis on designing AI (i.e, DL, FM, LLM) systems for **embodied agents** such as robots, assistive devices, and autonomous vehicles. These systems have wide-ranging applications, including **autonomous driving, embodied AI, and smart cities**.
 
-- Systems for LLM, Time-sensitive LLMs in CPS
-- On-device DL, Time-sensitive DL
-- Distributed DL Systems, Cooperative Edge Computing
+- Systems for LLM, Time-sensitive LLMs in CPS (TimelyLLM, TypeFly)
+- On-device DL, Time-sensitive DL (BlastNet, RT-mDL)
+- Distributed DL Systems, Cooperative Edge Computing (Soar, CoEdge)
 
 She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, MobiCom, IPSN, MobiSys, and IoTDI), and received the ACM SenSys 2022 **Best Paper Award Finalist** and the ACM SenSys 2022 **Best Poster Award**. She serves as the program committee member for several ACM/IEEE flagship journals/conferences, including SenSys25, ICPADS24 and CHASE23.
+
+Contact: neiwen.ling@yale.edu  CV: <a href="https://neawhen.github.io/neiwen.github.io/assets/pdf/CV_Neiwen.pdf" target="_blank" rel="noopener noreferrer"> Neiwen's CV </a>
 
 <!-- Her research falls in the intersection of Edge Computing, Machine Learning and Real-time System. She focuses on the intelligence and real-time capabilities of edge devices, with a goal of developing <b>real-time systems for AI (i.e., DL, FM, LLM) applications</b> such as smart city and autonomous driving. 
 She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, IPSN, MobiSys, and IoTDI), and received the ACM SenSys 2022 <b>Best Paper Award Finalist</b> and the ACM SenSys 2022 <b>Best Poster Award</b>. She has served as the reviewer or program committee member for several ACM/IEEE flagship journals/conferences, including TMC, IMWUT/UbiComp, INFOCOM, CHASE and TOSN. -->
