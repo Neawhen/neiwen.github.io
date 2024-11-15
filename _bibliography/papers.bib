@@ -109,11 +109,27 @@
   html={https://dl.acm.org/doi/10.1145/3636534.3649352},
 }
 
+@article{2024typefly,
+  abbr={arxiv},
+  title={TypeFly: Flying Drones with Large Language Model},
+  author={Chen, Guojun and Yu, Xiaojing and Ling, Neiwen and Zhong, Lin},
+  abstract={Recent advancements in robot control using large language models (LLMs) have demonstrated significant potential, primarily due to LLMs’ capabilities to understand natural language commands and generate executable plans in various
+  languages. However, in real-time and interactive applications involving mobile robots, particularly drones, the sequential token generation process inherent to LLMs introduces substantial latency, i.e. response time, in control plan generation.
+  In this paper, we present a system called TypeFly that tackles this problem using a combination of a novel programming language called MiniSpec and its runtime to reduce the plan generation time and drone response time. That is, instead of asking an LLM to write a program (robotic plan) in the popular but verbose Python, TypeFly gets it to do it in MiniSpec specially designed for token efficiency and stream interpretation. 
+  Using a set of challenging drone tasks, we show that design choices made by TypeFly can reduce up to 62% response time and provide a more consistent user experience, enabling responsive and intelligent LLM-based drone control with efficient completion.},
+  year={2024},
+  pdf={typefly.pdf},
+  html={https://arxiv.org/abs/2312.14950},
+}
+
 @article{jiang2023coedge,
   abbr={IPSN'23},
   selected={true},
   title={CoEdge: A Cooperative Edge System for Distributed Real-Time Deep Learning Tasks},
   author={Jiang(co-primary), Zhehao and Ling(co-primary), Neiwen and Huang, Xuan and Shi, Shuyao and Wu, Chenhao and Zhao, Xiaoguang and Yan, Zhenyu and Xing, Guoliang},
+  abstract={Recent years have witnessed the emergence of a new class of cooperative edge systems in which a large number of edge nodes can collaborate through local peer-to-peer connectivity. In this paper, we propose CoEdge, a novel cooperative edge system that can support concurrent data/compute-intensive deep learning (DL) models for distributed real-time applications such as city-scale traffic monitoring and autonomous driving. First, CoEdge includes a hierarchical DL task scheduling framework that dispatches DL tasks to edge
+  nodes based on their computational profiles, communication overhead, and real-time requirements. Second, CoEdge can dramatically increase the execution efficiency of DL models by batching sensor data and aggregating the inferences of the same model. Finally, we propose a new edge containerization approach that enables an edge node to execute concurrent DL tasks by partitioning the CPU and GPU workloads into different containers. We extensively evaluate CoEdge on a self-deployed smart lamppost testbed on a university campus. 
+  Our results show that CoEdge can achieve up to 82.32% reduction on deadline missing rate compared to baselines.},
   journal = {The 22nd ACM/IEEE Conference on Information Processing in Sensor Networks (ACM/IEEE IPSN 2023)},
   year={2023},
   pdf={coedge_ipsn23.pdf},
@@ -202,12 +218,14 @@
 }
 
 
-@article{xie2023timely,
-  abbr={DATE'23},
+@article{xie2024timely,
+  abbr={RTCSA'24},
   title={Timely Fusion of Surround Radar/Lidar for Object Detection in Autonomous Driving Systems},
-  author={Xie, Wenjing and Hu, Tao and Ling, Neiwen and Xing, Guoliang and Liu, Shaoshan and Guan, Nan},
-  journal = {Design, Automation & Test in Europe Conference & Exhibition (IEEE DATE 2023)},
-  year={2023},
+  author={Xie, Wenjing and Hu, Tao and Ling, Neiwen and Xing, Guoliang and Xue, Chun Jason and Guan, Nan},
+  journal = {he 30th IEEE International Conference on Embedded and Real-Time Computing Systems and Application,(IEEE RTCSA 2024)},
+  year={2024},
+  html={https://ieeexplore.ieee.org/abstract/document/10695646},
+  pdf={timelyfusion.pdf},
   abstract={Fusion of multiple sensor modalities, such as camera, Lidar and Radar, are commonly used in autonomous driving systems to fully utilize the complementary advantages of different sensors. 
   Surround Radar/Lidar can provide 360-degree view sampling with the minimal cost, which are promising sensing hardware solutions for autonomous driving systems. However, due to the intrinsic physical constraints, the rotating speed (i.e., the frequency to generate data frames) of surround Radar is much lower than surround Lidar, and existing Radar/Lidar fusion methods have to work at the low frequency of surround Radar, which cannot meet the high responsiveness requirement of autonomous driving systems. 
   This paper develops techniques to fuse surround Radar/Lidar with working frequency only limited by the faster surround Lidar instead of the slower surround Radar, based on the state-of-the-art Radar/Lidar DNN model MVDNet. 
