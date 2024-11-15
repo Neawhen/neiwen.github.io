@@ -96,21 +96,21 @@
 #         - ENGG1110 Problem Solving by Programming, 2019/2020/2021 Fall, CUHK
 #         - IERG2602 Engineering Practicum, 2020/2021 Spring, CUHK
 
-- title: Professional Skills
-  type: nested_list
-  contents:
-    - title: Programming Language
-      items: 
-        - Python
-        - C/C++ Language
-        - Verilog HDL
-        - Assembly Language
-    - title: Development Platform
-      items:
-        - NVIDIA Jetson TX2
-        - NVIDIA AGX Xavier
-        - FPGA
-        - Arduino
-        - 51 SCM
-        - STM32F1/STM32F4
+# - title: Professional Skills
+#   type: nested_list
+#   contents:
+#     - title: Programming Language
+#       items: 
+#         - Python
+#         - C/C++ Language
+#         - Verilog HDL
+#         - Assembly Language
+#     - title: Development Platform
+#       items:
+#         - NVIDIA Jetson TX2
+#         - NVIDIA AGX Xavier
+#         - FPGA
+#         - Arduino
+#         - 51 SCM
+#         - STM32F1/STM32F4
 
