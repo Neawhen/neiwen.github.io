@@ -1,15 +1,15 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Neiwen Ling
-    - name: Languages
-      value: Chinese, English
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Neiwen Ling
+#     - name: Languages
+#       value: Chinese, English
 
-- title: Research Interests
-  type: list
-  contents:
-    - Edge AI, Smart City, Edge Computing, Deep Learning System, Real-time Scheduling
+# - title: Research Interests
+#   type: list
+#   contents:
+#     - Edge AI, Smart City, Edge Computing, Deep Learning System, Real-time Scheduling
 
 - title: Education
   type: time_table
