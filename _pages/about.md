@@ -27,7 +27,7 @@ Her research interests lie at the intersection of Edge Computing, Machine Learni
 - On-device DL, Time-sensitive DL ( <a href="https://dl.acm.org/doi/abs/10.1145/3560905.3568520" target="_blank" rel="noopener noreferrer"> BlastNet </a>,  <a href="https://dl.acm.org/doi/10.1145/3485730.3485938" target="_blank" rel="noopener noreferrer"> RT-mDL </a>)
 - Distributed DL, Cooperative Edge Computing (<a href="https://dl.acm.org/doi/10.1145/3636534.3649352" target="_blank" rel="noopener noreferrer"> Soar </a>, <a href="https://dl.acm.org/doi/10.1145/3583120.3586955" target="_blank" rel="noopener noreferrer"> CoEdge </a>)
 
-She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, MobiCom, IPSN, MobiSys, and IoTDI), and received the ACM SenSys 2022 **Best Paper Award Finalist** and the ACM SenSys 2022 **Best Poster Award**. She serves as the program committee member for several ACM/IEEE flagship journals/conferences, including SenSys25, ICPADS24 and CHASE23.
+She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, MobiCom, IPSN, MobiSys, and IoTDI), and received the ACM SenSys 2022 **Best Paper Award Finalist** and the ACM SenSys 2022 **Best Poster Award**. She serves as the program committee member for several ACM/IEEE flagship conferences, including SenSys25, ICPADS24 and CHASE23.
 
 Contact: neiwen.ling@yale.edu  Details: <a href="https://neawhen.github.io/neiwen.github.io/assets/pdf/CV_Neiwen.pdf" target="_blank" rel="noopener noreferrer"> Neiwen's CV </a>
 
