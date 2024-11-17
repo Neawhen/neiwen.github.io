@@ -29,7 +29,9 @@ Her research interests lie at the intersection of Edge Computing, Machine Learni
 
 She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, MobiCom, IPSN, MobiSys, and IoTDI), and received the ACM SenSys 2022 **Best Paper Award Finalist** and the ACM SenSys 2022 **Best Poster Award**. She serves as the program committee member for several ACM/IEEE flagship conferences, including SenSys25, ICPADS24 and CHASE23.
 
-<a href="https://neawhen.github.io/neiwen.github.io/assets/pdf/CV_Neiwen.pdf" target="_blank" rel="noopener noreferrer"> CV </a> / <a href="https://scholar.google.com/citations?user=ZtX9kXYAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer"> Google Scholar </a> / <a href="https://www.linkedin.com/in/neiwen-ling-1b115a170/?originalSubdomain=hk" target="_blank" rel="noopener noreferrer"> Linkedin </a> / Email: neiwen.ling@yale.edu
+<a href="https://neawhen.github.io/neiwen.github.io/assets/pdf/CV_Neiwen.pdf" target="_blank" rel="noopener noreferrer"> CV </a> / <a href="https://neawhen.github.io/neiwen.github.io/projects/" target="_blank" rel="noopener noreferrer"> Projects </a> / <a href="https://scholar.google.com/citations?user=ZtX9kXYAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer"> Google Scholar </a> 
+
+<a href="https://www.linkedin.com/in/neiwen-ling-1b115a170/?originalSubdomain=hk" target="_blank" rel="noopener noreferrer"> Linkedin </a> / Email: neiwen.ling@yale.edu
 
 <!-- Her research falls in the intersection of Edge Computing, Machine Learning and Real-time System. She focuses on the intelligence and real-time capabilities of edge devices, with a goal of developing <b>real-time systems for AI (i.e., DL, FM, LLM) applications</b> such as smart city and autonomous driving. 
 She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, IPSN, MobiSys, and IoTDI), and received the ACM SenSys 2022 <b>Best Paper Award Finalist</b> and the ACM SenSys 2022 <b>Best Poster Award</b>. She has served as the reviewer or program committee member for several ACM/IEEE flagship journals/conferences, including TMC, IMWUT/UbiComp, INFOCOM, CHASE and TOSN. -->
