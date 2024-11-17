@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 2
+title: Cooperative Edge Computing
 description: Distributed DL, Cooperative Edge Computing 
 img: assets/img/lamppost.jpg
 importance: 2
