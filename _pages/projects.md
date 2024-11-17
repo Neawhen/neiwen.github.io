@@ -20,9 +20,11 @@ horizontal: true
   {% if page.horizontal -%}
   <div class="container">
     <div class="row">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
+    <div class="col">
+      {%- for project in sorted_projects -%}
+        {% include projects_horizontal.html %}
+      {%- endfor %}
+    </div>
     </div>
   </div>
   {%- else -%}
@@ -41,9 +43,11 @@ horizontal: true
   {% if page.horizontal -%}
   <div class="container">
     <div class="row">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
+      <div class="col">
+      {%- for project in sorted_projects -%}
+        {% include projects_horizontal.html %}
+      {%- endfor %}
+      </div>
     </div>
   </div>
   {%- else -%}
