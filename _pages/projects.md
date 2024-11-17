@@ -5,7 +5,7 @@ permalink: /projects/
 nav: true
 nav_order: 5
 display_categories: [work]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
