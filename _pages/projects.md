@@ -46,7 +46,8 @@ horizontal: true
       <div class="col">
       {%- for project in sorted_projects -%}
         {% include projects_horizontal.html %}
-        </div>
+      {%- endfor %}
+      </div>
     </div>
   </div>
   {%- else -%}
