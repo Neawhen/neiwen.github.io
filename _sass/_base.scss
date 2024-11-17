@@ -425,7 +425,7 @@ footer.sticky-bottom {
 
   .card {
     img {
-      width: 50%;
+      width: 100%;
     }
   }
 
@@ -434,7 +434,7 @@ footer.sticky-bottom {
     margin-bottom: 10px;
 
     .row {
-      display: flex;
+      // display: flex;
       // flex-wrap: wrap;
       gap: 1rem;
       // justify-content: flex-start; 
