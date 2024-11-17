@@ -23,7 +23,7 @@ Neiwen Ling is currently a Postdoctoral Associate in the Efficient Computing Lab
 
 Her research interests lie at the intersection of Edge Computing, Machine Learning, Cyber-Physical Systems (CPS), and Real-time Systems. She focuses on advancing **time-sensitive AI systems**, with an emphasis on designing AI (i.e, DL, FM, LLM) systems for **embodied agents** such as robots, assistive devices, and autonomous vehicles. These systems have wide-ranging applications, including **autonomous driving, embodied AI, and smart cities**.
 
-- Systems for LLM, Time-sensitive LLMs in CPS (TimelyLLM, TypeFly)
+- Systems for LLM, Time-sensitive LLM in CPS (TimelyLLM, TypeFly)
 - On-device DL, Time-sensitive DL ( <a href="https://dl.acm.org/doi/abs/10.1145/3560905.3568520" target="_blank" rel="noopener noreferrer"> BlastNet </a>,  <a href="https://dl.acm.org/doi/10.1145/3485730.3485938" target="_blank" rel="noopener noreferrer"> RT-mDL </a>)
 - Distributed DL, Cooperative Edge Computing (<a href="https://dl.acm.org/doi/10.1145/3636534.3649352" target="_blank" rel="noopener noreferrer"> Soar </a>, <a href="https://dl.acm.org/doi/10.1145/3583120.3586955" target="_blank" rel="noopener noreferrer"> CoEdge </a>)
 
