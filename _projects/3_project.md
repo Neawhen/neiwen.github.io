@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LLM-powered Robots
-description: 
+# description: 
 img: assets/img/robot.jpg
 importance: 3
 category: work
