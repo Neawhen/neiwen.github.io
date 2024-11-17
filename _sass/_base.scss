@@ -434,11 +434,11 @@ footer.sticky-bottom {
     margin-bottom: 10px;
 
     .row {
-      // display: flex;
-      // flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;
       gap: 1rem;
-      // justify-content: flex-start; 
-      align-items: center;
+      justify-content: flex-start; 
+      // align-items: center;
     }
   }
 
