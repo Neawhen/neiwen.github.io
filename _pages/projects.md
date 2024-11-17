@@ -5,7 +5,7 @@ permalink: /projects/
 nav: true
 nav_order: 5
 display_categories: [work]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -19,13 +19,13 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row">
-      <div class="col">
       {%- for project in sorted_projects -%}
+        <div class="row">
+        <div class="col">
         {% include projects_horizontal.html %}
+        </div>
+        </div>
       {%- endfor %}
-      </div>
-    </div>
   </div>
   {%- else -%}
   <div class="grid">
@@ -42,13 +42,13 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row">
-      <div class="col">
       {%- for project in sorted_projects -%}
+        <div class="row">
+        <div class="col">
         {% include projects_horizontal.html %}
+        </div>
+        </div>
       {%- endfor %}
-      </div>
-    </div>
   </div>
   {%- else -%}
   <div class="grid">
