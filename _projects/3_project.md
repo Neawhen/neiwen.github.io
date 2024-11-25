@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Embodied AI
+title: Time-sensitive LLM in Embodied AI
 description: "TypeFly: Flying Drones with Large Language Model"
 img: assets/img/robot.jpg
 importance: 3
