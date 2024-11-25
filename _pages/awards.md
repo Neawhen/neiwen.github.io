@@ -6,6 +6,8 @@ description:
 nav: true
 nav_order: 2
 ---
+**Best Artifact Award Runner-Up**\
+*ACM MobiCom, 2024*
 
 **Best Paper Finalist**\
 *ACM SenSys, 2022*
