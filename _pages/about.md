@@ -23,8 +23,8 @@ Neiwen Ling is currently a Postdoctoral Associate in the Efficient Computing Lab
 
 Her research interests lie at the intersection of Edge Computing, Machine Learning, Cyber-Physical Systems (CPS), and Real-time Systems. She focuses on advancing **time-sensitive AI systems**, with an emphasis on designing AI (i.e, DL, FM, LLM) systems for **embodied agents** such as robots, assistive devices, and autonomous vehicles. These systems have wide-ranging applications, including **autonomous driving, embodied AI, and smart cities**.
 
-- Systems for LLM, Time-sensitive LLM in CPS (TimelyLLM, TypeFly)
-- On-device DL, Time-sensitive DL ( <a href="https://dl.acm.org/doi/abs/10.1145/3560905.3568520" target="_blank" rel="noopener noreferrer"> BlastNet </a>,  <a href="https://dl.acm.org/doi/10.1145/3485730.3485938" target="_blank" rel="noopener noreferrer"> RT-mDL </a>)
+- Systems for LLM, Time-Sensitive LLM in CPS (TimelyLLM, TypeFly)
+- DL on CPU-GPU Edge Platforms, Time-Sensitive DL ( <a href="https://dl.acm.org/doi/abs/10.1145/3560905.3568520" target="_blank" rel="noopener noreferrer"> BlastNet </a>,  <a href="https://dl.acm.org/doi/10.1145/3485730.3485938" target="_blank" rel="noopener noreferrer"> RT-mDL </a>)
 - Distributed DL, Cooperative Edge Computing (<a href="https://dl.acm.org/doi/10.1145/3636534.3649352" target="_blank" rel="noopener noreferrer"> Soar </a>, <a href="https://dl.acm.org/doi/10.1145/3583120.3586955" target="_blank" rel="noopener noreferrer"> CoEdge </a>)
 
 She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, MobiCom, IPSN, MobiSys, and IoTDI), and received the ACM SenSys 2022 **Best Paper Award Finalist**, the ACM MobiCom 2024 **Best Artifact Award Runner-Up**, and the ACM SenSys 2022 **Best Poster Award**. She serves as the program committee member for several ACM/IEEE flagship conferences, including SenSys25, ICPADS24 and CHASE23.
