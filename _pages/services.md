@@ -7,6 +7,7 @@ nav_order: 3
 ---
 
 **Organizing Committee**\
+General co-Chair, The 2nd International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things (FMSys'25), in Cyber-Physical Systems and Internet-of-Things Week 2025 (CPS-IoT Week 2025)\
 TPC co-Chair, International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things (FMSys'24), in Cyber-Physical Systems and Internet-of-Things Week 2024 (CPS-IoT Week 2024)\
 Organizer, N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021)
 
