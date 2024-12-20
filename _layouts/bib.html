@@ -119,7 +119,7 @@
           <!-- {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%} -->
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
             {%- if entry.accept -%}
