@@ -1,12 +1,19 @@
 ---
 layout: page
 title: Time-sensitive LLM in Embodied AI
-description: "TypeFly: Flying Drones with Large Language Model"
+description: "TimelyLLM: Segmented LLM Serving System for Time-sensitive Robotic Applications <br> TypeFly: Flying Drones with Large Language Model"
 img: assets/img/robot.jpg
 importance: 3
 category: work
 redirect: false
 ---
+
+**TimelyLLM: Segmented LLM Serving System for Time-sensitive Robotic Applications**
+
+<a href="https://neawhen.github.io/neiwen.github.io/assets/pdf/timelyllm.pdf" target="_blank" rel="noopener noreferrer"> Paper </a> 
+
+Large Language Models (LLMs) such as GPT-4 and Llama3 can already comprehend complex commands and process diverse tasks. This advancement facilitates their application in controlling drones and robots for various tasks. However, existing LLM serving systems typically employ a first-come, first-served (FCFS) batching mechanism, which fails to address the time-sensitive requirements of robotic applications. To address it, this paper proposes a new system named TimelyLLM serving multiple robotic agents with time-sensitive requests. TimelyLLM introduces novel mechanisms of segmented generation and scheduling that optimally leverage redundancy between robot plan generation and execution phases. We report an implementation of TimelyLLM on a widely-used LLM serving framework and evaluate it on a range of robotic applications. Our evaluation shows that TimelyLLM improves the time utility up to 1.97x, and reduces the overall waiting time by 84%.
+
 
 **TypeFly: Flying Drones with Large Language Model**
 
