@@ -15,7 +15,7 @@ Organizer, N2Women Meeting in the 19th ACM Conference on Embedded Networked Sens
 The 23rd ACM Conference on Embedded Networked Sensor Systems (<a href="https://sensys.acm.org/2025/" target="_blank" rel="noopener noreferrer">ACM SenSys 2025</a>)\
 The IEEE/ACM Conference on Connected Health: Applications, Systems, and Engineering Technologies 2025 (<a href="https://conferences.computer.org/chase2025/index.html" target="_blank" rel="noopener noreferrer">IEEE/ACM CHASE 2025</a>)\
 The 30th International Conference on Parallel and Distributed Systems (<a href="https://attend.ieee.org/icpads/" target="_blank" rel="noopener noreferrer">IEEE ICPADS 2024</a>)\
-Artifact Evaluation, The 30th Annual International Conference on Mobile Computing and Networking (<a href="https://www.sigmobile.org/mobicom/2024/" target="_blank" rel="noopener noreferrer">ACM MobiCom 2024</a>)\
+Artifact Evaluation, The 30th Annual International Conference on Mobile Computing and Networking (<a href="https://www.sigmobile.org/mobicom/2024/" target="_blank" rel="noopener noreferrer">ACM MobiCom 2024 Artifact Evaluation</a>)\
 The IEEE/ACM Conference on Connected Health: Applications, Systems, and Engineering Technologies 2023 (<a href="https://chase23.sigbed.org/" target="_blank" rel="noopener noreferrer">IEEE/ACM CHASE 2023</a>)\
 Poster & Demo, The ACM/IEEE International Conference on Internet of Things Design and Implementation 2023 (<a href="https://conferences.computer.org/iotDI/2023/index.html" target="_blank" rel="noopener noreferrer">IoTDI 2023 Poster & Demo</a>)
 
@@ -24,7 +24,7 @@ IEEE Transactions on Mobile Computing (TMC 2022, 2023, 2024)\
 ACM Transactions on Sensor Networks (TOSN 2023, 2024)\
 ACM Transactions on Internet of Things (TIOT 2023, 2024)\
 Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp 2022)\
-IEEE International Conference on Computer Communications (INFOCOM 2024)\
+IEEE International Conference on Computer Communications (INFOCOM 2024)
 <!-- SCIENCE CHINA Information Sciences (SCIS 2023)\
 IEEE Network Magazine 2023\
 ACM Transactions on Computing for Healthcare (HEALTH 2023)\
