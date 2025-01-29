@@ -25,9 +25,11 @@ jobs:
       run: |
         npm install -g mermaid.cli
     
-    - name: Install Ruby dependencies 
+    - name: Install Ruby dependencies
       run: |
         gem install bundler
+        bundle update --bundler
+        gem uninstall -aIx uri || true
         bundle install
 
     - name: Setup deploy options
