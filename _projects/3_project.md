@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Time-sensitive LLM in Embodied AI
+title: Time-sensitive LLM in Physical AI
 description: "TimelyLLM: Segmented LLM Serving System for Time-sensitive Robotic Applications <br> TypeFly: Flying Drones with Large Language Model"
 img: assets/img/robot.jpg
 importance: 3
