@@ -37,6 +37,13 @@ jobs:
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
         echo "::set-output name=DEPLOY_BRANCH::gh-pages"
+    
+    - name: Clean and install Ruby dependencies
+      run: |
+        gem uninstall bundler -aIx || true
+        gem install bundler:2.4.22
+        bundle _2.4.22_ install
+        
     - name: Deploy website 
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
