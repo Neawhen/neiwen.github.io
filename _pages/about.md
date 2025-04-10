@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: "neiwen23-11.jpg"
+  image: "neiwen25-4.jpg"
   image_circular: false # crops the image to make it circular
   address: 
     # lingnw@link.cuhk.edu.hk
@@ -21,12 +21,12 @@ social: true  # includes social icons at the bottom of the page
 
 Neiwen Ling is currently a Postdoctoral Associate in the Efficient Computing Lab at Yale, working under the guidance of <a href="https://www.linzhong.org/" target="_blank" rel="noopener noreferrer">Prof. Lin Zhong</a>. She completed her Ph.D.(2022) at the Chinese University of Hong Kong, under the supervision of <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Prof. Guoliang Xing</a>. 
 
-Her research interests lie at the intersection of Edge Computing, Machine Learning, Cyber-Physical Systems(CPS)/Internet of Things(IoT), and Real-time Systems, with a focus on developing **time-sensitive AI systems** (e.g., DL, FM, LLM) for **physical agents**. 
+Her research interests lie at the intersection of Edge Computing, Machine Learning, Cyber-Physical Systems(CPS)/Internet of Things(IoT), and Real-time Systems, with a focus on developing **time-sensitive AI systems** for **physical agents**. 
 These systems have broad applications, including **autonomous driving, robotics, and smart cities**.
 
 - Systems for LLM, Time-Sensitive LLM in CPS ( <a href="https://arxiv.org/pdf/2412.18695" target="_blank" rel="noopener noreferrer"> TimelyLLM </a>,  <a href="https://arxiv.org/pdf/2312.14950" target="_blank" rel="noopener noreferrer"> TypeFly </a>) 
-- DL on CPU-GPU Edge Platforms, Time-Sensitive DL ( <a href="https://neawhen.github.io/neiwen.github.io/assets/pdf/blastnet_sensys2022.pdf" target="_blank" rel="noopener noreferrer"> BlastNet </a>,  <a href="https://dl.acm.org/doi/pdf/10.1145/3485730.3485938" target="_blank" rel="noopener noreferrer"> RT-mDL </a>)
-- Distributed DL, Cooperative Edge Computing (<a href="https://dl.acm.org/doi/pdf/10.1145/3636534.3649352" target="_blank" rel="noopener noreferrer"> Soar </a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3583120.3586955" target="_blank" rel="noopener noreferrer"> CoEdge </a>)
+- Concurrent DNN on Edge Platforms, Time-Sensitive DNN ( <a href="https://neawhen.github.io/neiwen.github.io/assets/pdf/blastnet_sensys2022.pdf" target="_blank" rel="noopener noreferrer"> BlastNet </a>,  <a href="https://dl.acm.org/doi/pdf/10.1145/3485730.3485938" target="_blank" rel="noopener noreferrer"> RT-mDL </a>)
+- Distributed DNN, Cooperative Edge Computing (<a href="https://dl.acm.org/doi/pdf/10.1145/3636534.3649352" target="_blank" rel="noopener noreferrer"> Soar </a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3583120.3586955" target="_blank" rel="noopener noreferrer"> CoEdge </a>)
 
 She has published papers at several ACM/IEEE flagship conferences (e.g., SenSys, MobiCom, MobiSys, IPSN, and IoTDI), and received the ACM SenSys 2022 **Best Paper Award Finalist**, the ACM MobiCom 2024 **Best Artifact Award Runner-Up**, and the ACM SenSys 2022 **Best Poster Award**. She served as the program committee member for several ACM/IEEE flagship conferences, including SenSys25, ICPADS24 and CHASE23.
 
