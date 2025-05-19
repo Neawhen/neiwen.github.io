@@ -6,6 +6,9 @@ description:
 nav: true
 nav_order: 2
 ---
+**MobiSys Rising Star**\
+*ACM MobiSys, 2025*
+
 **Best Artifact Award Runner-Up**\
 *ACM MobiCom, 2024*
 
