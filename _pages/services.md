@@ -22,14 +22,15 @@ Poster & Demo, The ACM/IEEE International Conference on Internet of Things Desig
 **Invited Reviewer**\
 IEEE Transactions on Mobile Computing (TMC 2022, 2023, 2024, 2025)\
 ACM Transactions on Sensor Networks (TOSN 2023, 2024)\
-ACM Transactions on Internet of Things (TIOT 2023, 2024)\
-Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp 2022)\
-IEEE International Conference on Computer Communications (INFOCOM 2024)
-<!-- SCIENCE CHINA Information Sciences (SCIS 2023)\
+ACM Transactions on Internet of Things (TIOT 2023, 2024, 2025)\
+CCF Transactions on Pervasive Computing and Interaction (TPCI 2025)\
+IEEE International Conference on Computer Communications (INFOCOM 2024)\
+IEEE Transactions on Computers 2024\
+SCIENCE CHINA Information Sciences (SCIS 2023)\
 IEEE Network Magazine 2023\
 ACM Transactions on Computing for Healthcare (HEALTH 2023)\
-IEEE Transactions on Computers 2024\
-The First Workshop on DL-Hardware Co-Design for AI Acceleration in the 37th AAAI Conference on Artificial Intelligence (DCAA 2023) -->
+The First Workshop on DL-Hardware Co-Design for AI Acceleration in the 37th AAAI Conference on Artificial Intelligence (DCAA 2023)\
+Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp 2022)
 
 **Teaching Assistant**\
 ENGG1100 Introduction to Engineering Design, 2018 Fall, CUHK\
