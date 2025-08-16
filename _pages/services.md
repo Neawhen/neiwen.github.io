@@ -11,7 +11,7 @@ General co-Chair, The 2nd International Workshop on Foundation Models for Cyber-
 TPC co-Chair, International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things (<a href="https://fmsys24.github.io/" target="_blank" rel="noopener noreferrer">FMSys'24</a>), in Cyber-Physical Systems and Internet-of-Things Week 2024 (<a href="https://cps-iot-week2024.ie.cuhk.edu.hk/" target="_blank" rel="noopener noreferrer">CPS-IoT Week 2024</a>)\
 Organizer, N2Women Meeting in the 19th ACM Conference on Embedded Networked Sensor Systems (<a href="https://sensys.acm.org/2021/" target="_blank" rel="noopener noreferrer">ACM SenSys 2021</a>)
 
-**TBoard of Distinguished Reviewers**\
+**Board of Distinguished Reviewers**\
 ACM Transactions on Internet of Things (ACM TIoT 2025-present)
 
 **Technical Program Committee**\
