@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-Neiwen Ling is a Senior Research Scientist in LLM System at ByteDance. Previously, she was a Postdoctoral Associate in the Efficient Computing Lab at Yale, working with <a href="https://www.linzhong.org/" target="_blank" rel="noopener noreferrer">Prof. Lin Zhong</a>. She completed her Ph.D.(2022) at the Chinese University of Hong Kong, under the supervision of <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Prof. Guoliang Xing</a>.
+Neiwen Ling is a Senior Research Scientist working on LLM systems at ByteDance. Previously, she was a Postdoctoral Associate in the Efficient Computing Lab at Yale, working with <a href="https://www.linzhong.org/" target="_blank" rel="noopener noreferrer">Prof. Lin Zhong</a>. She completed her Ph.D.(2022) at the Chinese University of Hong Kong, under the supervision of <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Prof. Guoliang Xing</a>.
 
 Her research interests lie at the intersection of Edge Computing, Machine Learning, Cyber-Physical Systems(CPS)/Internet of Things(IoT), and Real-time Systems, with a focus on developing **time-sensitive AI systems** for **physical agents**.
 These systems have broad applications, including **autonomous driving, robotics, and smart cities**.
