@@ -68,6 +68,17 @@
   slides={Blastnet-slides.pdf}
 }
 
+@article{2026vexact,
+  abbr={arxiv},
+  selected={true},
+  title={Diagnosing Training Inference Mismatch in LLM Reinforcement Learning},
+  author={Zhong(co-primary), Tianle and Ling(co-primary), Neiwen and Pi, Yifan and Wei, Zijun and Yu, Tianshu and Fox, Geoffrey and Wu, Peng and Yu, Xiao},
+  abstract={Modern LLM RL systems separate rollout generation from policy optimization. These two stages are expected to produce token probabilities that match exactly. However, implementation differences can make them assign different values to the same sequence under the same model weights, inducing Training-Inference Mismatch (TIM). TIM is difficult to inspect because it is entangled with off-policy drift and common stabilization mechanisms. In this work, we isolate TIM in a zero-mismatch diagnostic setting (VeXact), and show that small token-level numerical disagreements can independently cause training collapse. We further show that TIM changes the effective optimization problem, and identify a set of remedies that could mitigate TIM. Our results suggest that TIM is not benign numerical noise, but a systems-level perturbation that should be treated as a first-order factor in analyzing LLM RL stability.},
+  year={2026},
+  journal={arXiv preprint arXiv:2605.14220},
+  html={https://arxiv.org/abs/2605.14220},
+}
+
 @article{2024timelyllm,
   abbr={MobiSys'26},
   selected={true},
@@ -77,14 +88,14 @@
   TimelyLLM introduces novel mechanisms of segmented generation and scheduling that optimally leverage redundancy between robot plan generation and execution phases.
   We report an implementation of TimelyLLM on a widely-used LLM serving framework and evaluate it on a range of robotic applications. Our evaluation shows that TimelyLLM improves the time utility up to 1.97x, and reduces the overall waiting time by 84%.},
   year={2026},
+  featured={Featured Paper},
   pdf={timelyllm.pdf},
-  journal={Conditionally accepted by The 23rd ACM International Conference on Mobile Systems, Applications, and Services (ACM MobiSys 2026)},
+  journal={The 24th ACM International Conference on Mobile Systems, Applications, and Services (ACM MobiSys 2026)},
   html={https://arxiv.org/abs/2412.18695},
 }
 
 @article{ling2021rt,
   abbr={SenSys'21},
-  selected={true},
   title={RT-mDL: Supporting Real-Time Mixed Deep Learning Tasks on Edge Platforms},
   author={Ling, Neiwen and Wang, Kai and He, Yuze and Xing, Guoliang and Xie, Daqi},
   abstract={Recent years have witnessed an emerging class of real-time applications, e.g., autonomous driving, in which resource-constrained edge platforms need to execute a set of real-time mixed Deep Learning (DL) tasks concurrently. Such an application paradigm poses major challenges due to the huge compute workload of deep neural network models, diverse performance requirements of different tasks, and the lack of real-time support from existing DL frameworks. In this paper, we present RT-mDL, a novel framework to support mixed real-time DL tasks on edge platform with heterogeneous CPU and GPU resource. 
@@ -122,7 +133,6 @@
 
 @article{ling2025tmc,
   abbr={TMC'25},
-  selected={true},
   title={Time-sensitive Multi-DNN Inference on CPU-GPU Edge Platforms},
   author={Ling, Neiwen and Lu, Wenrui and Huang, Xuan and Zhao, Zhihe and Guan, Nan and Yan, Zhenyu and Xing, Guoliang},
   journal={IEEE Transactions on Mobile Computing (IEEE TMC 2025)},
@@ -169,7 +179,6 @@
 
 @article{jiang2023coedge,
   abbr={IPSN'23},
-  selected={true},
   title={CoEdge: A Cooperative Edge System for Distributed Real-Time Deep Learning Tasks},
   author={Jiang(co-primary), Zhehao and Ling(co-primary), Neiwen and Huang, Xuan and Shi, Shuyao and Wu, Chenhao and Zhao, Xiaoguang and Yan, Zhenyu and Xing, Guoliang},
   abstract={Recent years have witnessed the emergence of a new class of cooperative edge systems in which a large number of edge nodes can collaborate through local peer-to-peer connectivity. In this paper, we propose CoEdge, a novel cooperative edge system that can support concurrent data/compute-intensive deep learning (DL) models for distributed real-time applications such as city-scale traffic monitoring and autonomous driving. First, CoEdge includes a hierarchical DL task scheduling framework that dispatches DL tasks to edge
@@ -195,7 +204,6 @@
 
 @article{zhao2022iot,
   abbr={SenSys'22Poster},
-  selected={true},
   title={Aaron: Compile-time Kernel Adaptation for Multi-DNN Inference Acceleration on Edge GPU},
   author={Zhao, Zhihe and Ling, Neiwen and Guan, Nan and Xing, Guoliang},
   journal={The 20th ACM Conference on Embedded Networked Sensor Systems},
@@ -225,7 +233,6 @@
 
 @article{zhao2023miriam,
   abbr={SenSys'23},
-  selected={true},
   title={Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU},
   author={Zhao, Zhihe and Ling, Neiwen and Guan, Nan and Xing, Guoliang},
   journal = {The 21st ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2023)},
@@ -240,7 +247,6 @@
 
 @article{yang2023edgefm,
   abbr={SenSys'23},
-  selected={true},
   title={EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge},
   author={Yang, Bufang and He, Lixing and Ling, Neiwen and Yan, Zhenyu and Xing, Guoliang and Shuai, Xian and Ren Xiaozhe and Xin Jiang},
   journal = {The 21st ACM Conference on Embedded Networked Sensor Systems (ACM SenSys 2023)},
