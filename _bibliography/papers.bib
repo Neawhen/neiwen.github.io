@@ -68,6 +68,17 @@
   slides={Blastnet-slides.pdf}
 }
 
+@article{2026vexact,
+  abbr={arxiv},
+  selected={true},
+  title={Diagnosing Training Inference Mismatch in LLM Reinforcement Learning},
+  author={Zhong, Tianle and Ling, Neiwen and Pi, Yifan and Wei, Zijun and Yu, Tianshu and Fox, Geoffrey and Wu, Peng and Yu, Xiao},
+  abstract={Modern LLM RL systems separate rollout generation from policy optimization. These two stages are expected to produce token probabilities that match exactly. However, implementation differences can make them assign different values to the same sequence under the same model weights, inducing Training-Inference Mismatch (TIM). TIM is difficult to inspect because it is entangled with off-policy drift and common stabilization mechanisms. In this work, we isolate TIM in a zero-mismatch diagnostic setting (VeXact), and show that small token-level numerical disagreements can independently cause training collapse. We further show that TIM changes the effective optimization problem, and identify a set of remedies that could mitigate TIM. Our results suggest that TIM is not benign numerical noise, but a systems-level perturbation that should be treated as a first-order factor in analyzing LLM RL stability.},
+  year={2026},
+  journal={arXiv preprint arXiv:2605.14220},
+  html={https://arxiv.org/abs/2605.14220},
+}
+
 @article{2024timelyllm,
   abbr={MobiSys'26},
   selected={true},
