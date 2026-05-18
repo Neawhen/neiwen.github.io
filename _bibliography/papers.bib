@@ -68,17 +68,6 @@
   slides={Blastnet-slides.pdf}
 }
 
-@article{2026vexact,
-  abbr={arxiv},
-  selected={true},
-  title={Diagnosing Training Inference Mismatch in LLM Reinforcement Learning},
-  author={Zhong(co-primary), Tianle and Ling(co-primary), Neiwen and Pi, Yifan and Wei, Zijun and Yu, Tianshu and Fox, Geoffrey and Wu, Peng and Yu, Xiao},
-  abstract={Modern LLM RL systems separate rollout generation from policy optimization. These two stages are expected to produce token probabilities that match exactly. However, implementation differences can make them assign different values to the same sequence under the same model weights, inducing Training-Inference Mismatch (TIM). TIM is difficult to inspect because it is entangled with off-policy drift and common stabilization mechanisms. In this work, we isolate TIM in a zero-mismatch diagnostic setting (VeXact), and show that small token-level numerical disagreements can independently cause training collapse. We further show that TIM changes the effective optimization problem, and identify a set of remedies that could mitigate TIM. Our results suggest that TIM is not benign numerical noise, but a systems-level perturbation that should be treated as a first-order factor in analyzing LLM RL stability.},
-  year={2026},
-  journal={arXiv preprint arXiv:2605.14220},
-  html={https://arxiv.org/abs/2605.14220},
-}
-
 @article{2024timelyllm,
   abbr={MobiSys'26},
   selected={true},
@@ -88,10 +77,23 @@
   TimelyLLM introduces novel mechanisms of segmented generation and scheduling that optimally leverage redundancy between robot plan generation and execution phases.
   We report an implementation of TimelyLLM on a widely-used LLM serving framework and evaluate it on a range of robotic applications. Our evaluation shows that TimelyLLM improves the time utility up to 1.97x, and reduces the overall waiting time by 84%.},
   year={2026},
+  month={June},
   featured={Featured Paper},
   pdf={timelyllm.pdf},
   journal={The 24th ACM International Conference on Mobile Systems, Applications, and Services (ACM MobiSys 2026)},
   html={https://arxiv.org/abs/2412.18695},
+}
+
+@article{2026vexact,
+  abbr={arxiv},
+  selected={true},
+  title={Diagnosing Training Inference Mismatch in LLM Reinforcement Learning},
+  author={Zhong(co-primary), Tianle and Ling(co-primary), Neiwen and Pi, Yifan and Wei, Zijun and Yu, Tianshu and Fox, Geoffrey and Wu, Peng and Yu, Xiao},
+  abstract={Modern LLM RL systems separate rollout generation from policy optimization. These two stages are expected to produce token probabilities that match exactly. However, implementation differences can make them assign different values to the same sequence under the same model weights, inducing Training-Inference Mismatch (TIM). TIM is difficult to inspect because it is entangled with off-policy drift and common stabilization mechanisms. In this work, we isolate TIM in a zero-mismatch diagnostic setting (VeXact), and show that small token-level numerical disagreements can independently cause training collapse. We further show that TIM changes the effective optimization problem, and identify a set of remedies that could mitigate TIM. Our results suggest that TIM is not benign numerical noise, but a systems-level perturbation that should be treated as a first-order factor in analyzing LLM RL stability.},
+  year={2026},
+  month={May},
+  journal={arXiv preprint arXiv:2605.14220},
+  html={https://arxiv.org/abs/2605.14220},
 }
 
 @article{ling2021rt,
@@ -196,9 +198,10 @@
   selected={true},
   title={TypeFly: Low-Latency Drone Planning with Large Language Models},
   author={Chen, Guojun and Yu, Xiaojing and Ling, Neiwen and Zhong, Lin},
-  abstract={ },
+  abstract={Commanding a drone with a natural language is not only user-friendly but also opens the door for emerging language agents to control the drone. Emerging large language models (LLMs) provide a previously impossible opportunity to automatically translate a task description in a natural language to a program that can be executed by the drone. However, powerful LLMs and their vision counterparts are limited in three important ways. First, they are only available as cloud-based services. Sending images to the cloud raises privacy concerns. Second, they are expensive, costing proportionally to the request size. Finally, without expensive fine-tuning, existing LLMs are quite limited in their capability of writing a program for specialized systems like drones. In this paper, we present a system called TypeFly that tackles the above three problems using a combination of edge-based vision intelligence, novel programming language design, and prompt engineering. Instead of the familiar Python, TypeFly gets a cloud-based LLM service to write a program in a small, custom language called MiniSpec, based on task and scene descriptions in English. Such MiniSpec programs are not only succinct (and therefore efficient) but also able to consult the LLM during their execution using a special skill called query. Using a set of increasingly challenging drone tasks, we show that design choices made by TypeFly can reduce both the cost of LLM service and the task execution time by more than 2x. More importantly, query and prompt engineering techniques contributed by TypeFly significantly improve the chance of success of complex tasks.},
   year={2025},
-  journal={IEEE Transactions on Mobile Computing (IEEE TMC 2025)}
+  journal={IEEE Transactions on Mobile Computing (IEEE TMC 2025)},
+  html={https://ieeexplore.ieee.org/document/10970379},
 }
 
 
